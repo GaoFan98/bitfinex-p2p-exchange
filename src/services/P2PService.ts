@@ -445,26 +445,6 @@ export class P2PService {
         );
     }
 
-    private isValidMatchData(data: Record<string, unknown>): data is {
-        id: string;
-        buyOrder: Record<string, unknown>;
-        sellOrder: Record<string, unknown>;
-        matchedAmount: number;
-        price: number;
-        timestamp: number;
-    } {
-        return (
-            typeof data.id === 'string' &&
-            typeof data.matchedAmount === 'number' &&
-            typeof data.price === 'number' &&
-            typeof data.timestamp === 'number' &&
-            data.buyOrder !== undefined &&
-            typeof data.buyOrder === 'object' &&
-            data.sellOrder !== undefined &&
-            typeof data.sellOrder === 'object'
-        );
-    }
-
     private isValidState(state: unknown): boolean {
         if (!state || typeof state !== 'object') {
             this.logger.debug('Invalid state: not an object', {state});
