@@ -3510,3 +3510,301 @@ RECENT MATCHES:
 [2025-03-08T07:51:02.852Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
 [2025-03-08T07:51:02.852Z] [INFO] =========================
 
+[2025-03-08T09:04:13.135Z] [INFO] P2P Service initialized {"clientId":"exchange-node2","serviceName":"exchange_service","port":3025,"isServer":true}
+[2025-03-08T09:04:13.136Z] [INFO] Starting server with ID: exchange-node2
+[2025-03-08T09:04:13.136Z] [INFO] Listening on port: 3025
+[2025-03-08T09:04:13.137Z] [INFO] Started Grenache link
+[2025-03-08T09:04:13.137Z] [INFO] Initializing server...
+[2025-03-08T09:04:13.139Z] [INFO] Server listening on port 3025
+[2025-03-08T09:04:13.139Z] [INFO] Started announcing service exchange_service on port 3025
+[2025-03-08T09:04:13.152Z] [INFO] P2P Service initialized {"clientId":"exchange-node1","serviceName":"exchange_service","port":1024,"isServer":true}
+[2025-03-08T09:04:13.153Z] [INFO] Starting server with ID: exchange-node1
+[2025-03-08T09:04:13.153Z] [INFO] Listening on port: 1024
+[2025-03-08T09:04:13.153Z] [INFO] Started Grenache link
+[2025-03-08T09:04:13.153Z] [INFO] Initializing server...
+[2025-03-08T09:04:13.156Z] [INFO] Server listening on port 1024
+[2025-03-08T09:04:13.156Z] [INFO] Started announcing service exchange_service on port 1024
+[2025-03-08T09:04:18.147Z] [INFO] P2P service started, connected to Grape
+[2025-03-08T09:04:18.148Z] [INFO] Announcing service: exchange_service
+[2025-03-08T09:04:18.157Z] [INFO] P2P service started, connected to Grape
+[2025-03-08T09:04:18.158Z] [INFO] Announcing service: exchange_service
+[2025-03-08T09:04:18.845Z] [INFO] P2P Service initialized {"clientId":"client2","serviceName":"exchange_service","port":9002,"isServer":false}
+[2025-03-08T09:04:18.846Z] [INFO] Starting client with ID: client2
+[2025-03-08T09:04:18.846Z] [INFO] Started Grenache link
+[2025-03-08T09:04:18.846Z] [INFO] Initializing client...
+[2025-03-08T09:04:18.846Z] [INFO] Waiting for servers to be ready...
+[2025-03-08T09:04:18.845Z] [INFO] P2P Service initialized {"clientId":"client1","serviceName":"exchange_service","port":9001,"isServer":false}
+[2025-03-08T09:04:18.846Z] [INFO] Starting client with ID: client1
+[2025-03-08T09:04:18.846Z] [INFO] Started Grenache link
+[2025-03-08T09:04:18.846Z] [INFO] Initializing client...
+[2025-03-08T09:04:18.847Z] [INFO] Waiting for servers to be ready...
+[2025-03-08T09:04:28.151Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T09:04:28.152Z] [INFO] Buy Orders: 0
+[2025-03-08T09:04:28.152Z] [INFO] Sell Orders: 0
+[2025-03-08T09:04:28.152Z] [INFO] Total Matches: 0
+[2025-03-08T09:04:28.152Z] [INFO] ============================
+
+[2025-03-08T09:04:28.160Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T09:04:28.160Z] [INFO] Buy Orders: 0
+[2025-03-08T09:04:28.160Z] [INFO] Sell Orders: 0
+[2025-03-08T09:04:28.161Z] [INFO] Total Matches: 0
+[2025-03-08T09:04:28.161Z] [INFO] ============================
+
+[2025-03-08T09:04:28.850Z] [INFO] Attempting initial sync (attempt 1/5)...
+[2025-03-08T09:04:28.851Z] [INFO] Attempting initial sync (attempt 1/5)...
+[2025-03-08T09:04:28.884Z] [INFO] Orderbook synced successfully {"buyOrders":0,"sellOrders":0,"matches":0}
+[2025-03-08T09:04:28.884Z] [INFO] Orderbook synced successfully {"buyOrders":0,"sellOrders":0,"matches":0}
+[2025-03-08T09:04:28.884Z] [INFO] Initial sync completed successfully
+[2025-03-08T09:04:28.884Z] [INFO] P2P service started, connected to Grape
+[2025-03-08T09:04:28.885Z] [INFO] Initial orderbook state:
+[2025-03-08T09:04:28.885Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:28.885Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:28.885Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:28.885Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:28.885Z] [INFO] =========================
+
+[2025-03-08T09:04:28.884Z] [INFO] Initial sync completed successfully
+[2025-03-08T09:04:28.885Z] [INFO] P2P service started, connected to Grape
+[2025-03-08T09:04:28.885Z] [INFO] Initial orderbook state:
+[2025-03-08T09:04:28.885Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:28.885Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:28.885Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:28.885Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:28.885Z] [INFO] =========================
+
+[2025-03-08T09:04:33.899Z] [INFO] Submitting new sell order: $58.64 x 6.20
+[2025-03-08T09:04:33.899Z] [INFO] Submitting new buy order: $96.63 x 10.92
+[2025-03-08T09:04:33.900Z] [INFO] Submitting new order: 94e9c43c-9cb7-46c8-b3ce-f56ee1b05070 {"id":"94e9c43c-9cb7-46c8-b3ce-f56ee1b05070","type":"buy","price":96.63,"amount":10.92}
+[2025-03-08T09:04:33.900Z] [INFO] Submitting new order: 5a00674a-0008-42e2-b350-0a63afb04205 {"id":"5a00674a-0008-42e2-b350-0a63afb04205","type":"sell","price":58.64,"amount":6.2}
+[2025-03-08T09:04:33.908Z] [INFO] Orderbook synced successfully {"buyOrders":0,"sellOrders":0,"matches":0}
+[2025-03-08T09:04:33.910Z] [INFO] Order 5a00674a-0008-42e2-b350-0a63afb04205 processed from client client2 {"orderId":"5a00674a-0008-42e2-b350-0a63afb04205","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T09:04:33.911Z] [INFO] Order added to the orderbook
+[2025-03-08T09:04:33.912Z] [INFO] Order 94e9c43c-9cb7-46c8-b3ce-f56ee1b05070 processed from client client1 {"orderId":"94e9c43c-9cb7-46c8-b3ce-f56ee1b05070","clientId":"client1","result":{"matches":1,"remainingOrder":"exists"}}
+[2025-03-08T09:04:33.913Z] [INFO] Order added to the orderbook
+[2025-03-08T09:04:33.911Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:33.911Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:33.911Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:33.912Z] [INFO]   ID: 5a00674a, Price: $58.64, Amount: 6.20, Client: client2
+[2025-03-08T09:04:33.912Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:33.912Z] [INFO] =========================
+
+[2025-03-08T09:04:33.913Z] [INFO] Orderbook synced successfully {"buyOrders":0,"sellOrders":1,"matches":0}
+[2025-03-08T09:04:33.913Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:33.913Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:33.913Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:33.913Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:33.913Z] [INFO] =========================
+
+[2025-03-08T09:04:38.157Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T09:04:38.158Z] [INFO] Buy Orders: 1
+[2025-03-08T09:04:38.158Z] [INFO] Sell Orders: 0
+[2025-03-08T09:04:38.158Z] [INFO] Total Matches: 1
+[2025-03-08T09:04:38.159Z] [INFO] ============================
+
+[2025-03-08T09:04:38.162Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T09:04:38.163Z] [INFO] Buy Orders: 0
+[2025-03-08T09:04:38.163Z] [INFO] Sell Orders: 0
+[2025-03-08T09:04:38.163Z] [INFO] Total Matches: 0
+[2025-03-08T09:04:38.163Z] [INFO] ============================
+
+[2025-03-08T09:04:38.891Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:38.891Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:38.892Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:38.892Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:38.892Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:38.892Z] [INFO] =========================
+
+[2025-03-08T09:04:38.892Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:38.892Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:38.892Z] [INFO]   ID: 5a00674a, Price: $58.64, Amount: 6.20, Client: client2
+[2025-03-08T09:04:38.892Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:38.892Z] [INFO] =========================
+
+[2025-03-08T09:04:38.899Z] [INFO] Submitting new buy order: $99.89 x 3.75
+[2025-03-08T09:04:38.899Z] [INFO] Submitting new buy order: $68.04 x 4.59
+[2025-03-08T09:04:38.899Z] [INFO] Submitting new order: 993cfe71-ec1b-4fdf-81e4-12b4664e3a8c {"id":"993cfe71-ec1b-4fdf-81e4-12b4664e3a8c","type":"buy","price":99.89,"amount":3.75}
+[2025-03-08T09:04:38.899Z] [INFO] Submitting new order: 54e1e1da-98da-413b-9314-31184cd8fcd4 {"id":"54e1e1da-98da-413b-9314-31184cd8fcd4","type":"buy","price":68.04,"amount":4.59}
+[2025-03-08T09:04:38.903Z] [INFO] Orderbook synced successfully {"buyOrders":1,"sellOrders":0,"matches":1}
+[2025-03-08T09:04:38.903Z] [INFO] Orderbook synced successfully {"buyOrders":1,"sellOrders":0,"matches":1}
+[2025-03-08T09:04:38.904Z] [INFO] Order 993cfe71-ec1b-4fdf-81e4-12b4664e3a8c processed from client client1 {"orderId":"993cfe71-ec1b-4fdf-81e4-12b4664e3a8c","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T09:04:38.904Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T09:04:38.904Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:38.904Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:38.904Z] [INFO]   ID: 94e9c43c, Price: $96.63, Amount: 4.72, Client: client1
+[2025-03-08T09:04:38.904Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:38.904Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:38.904Z] [INFO]   Amount: 6.20, Price: $58.64, Buy: 94e9c43c, Sell: 5a00674a
+[2025-03-08T09:04:38.904Z] [INFO] =========================
+
+[2025-03-08T09:04:38.905Z] [INFO] Order added to the orderbook
+[2025-03-08T09:04:38.905Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:38.905Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:38.905Z] [INFO]   ID: 94e9c43c, Price: $96.63, Amount: 4.72, Client: client1
+[2025-03-08T09:04:38.905Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:38.905Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:38.905Z] [INFO]   Amount: 6.20, Price: $58.64, Buy: 94e9c43c, Sell: 5a00674a
+[2025-03-08T09:04:38.905Z] [INFO] =========================
+
+[2025-03-08T09:04:43.896Z] [INFO] Orderbook synced successfully {"buyOrders":1,"sellOrders":0,"matches":0}
+[2025-03-08T09:04:43.897Z] [INFO] Orderbook synced successfully {"buyOrders":1,"sellOrders":0,"matches":0}
+[2025-03-08T09:04:43.900Z] [INFO] Submitting new sell order: $78.56 x 6.03
+[2025-03-08T09:04:43.900Z] [INFO] Submitting new sell order: $99.52 x 10.34
+[2025-03-08T09:04:43.900Z] [INFO] Submitting new order: 5df843e0-ae19-4e9e-ab59-ea41a1492563 {"id":"5df843e0-ae19-4e9e-ab59-ea41a1492563","type":"sell","price":78.56,"amount":6.03}
+[2025-03-08T09:04:43.900Z] [INFO] Submitting new order: 36b012c5-523f-48bd-abc8-f73123d47b77 {"id":"36b012c5-523f-48bd-abc8-f73123d47b77","type":"sell","price":99.52,"amount":10.34}
+[2025-03-08T09:04:43.905Z] [INFO] Order 36b012c5-523f-48bd-abc8-f73123d47b77 processed from client client1 {"orderId":"36b012c5-523f-48bd-abc8-f73123d47b77","clientId":"client1","result":{"matches":1,"remainingOrder":"exists"}}
+[2025-03-08T09:04:43.906Z] [INFO] Order 5df843e0-ae19-4e9e-ab59-ea41a1492563 processed from client client2 {"orderId":"5df843e0-ae19-4e9e-ab59-ea41a1492563","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T09:04:43.906Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T09:04:43.906Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T09:04:43.906Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:43.906Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:43.906Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:43.906Z] [INFO]   ID: 36b012c5, Price: $99.52, Amount: 6.59, Client: client1
+[2025-03-08T09:04:43.906Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:43.906Z] [INFO]   Amount: 3.75, Price: $99.89, Buy: 993cfe71, Sell: 36b012c5
+[2025-03-08T09:04:43.906Z] [INFO] =========================
+
+[2025-03-08T09:04:43.906Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:43.906Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:43.907Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:43.907Z] [INFO]   ID: 5df843e0, Price: $78.56, Amount: 2.28, Client: client2
+[2025-03-08T09:04:43.907Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:43.907Z] [INFO]   Amount: 3.75, Price: $99.89, Buy: 993cfe71, Sell: 5df843e0
+[2025-03-08T09:04:43.907Z] [INFO] =========================
+
+[2025-03-08T09:04:48.158Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T09:04:48.158Z] [INFO] Buy Orders: 1
+[2025-03-08T09:04:48.158Z] [INFO] Sell Orders: 0
+[2025-03-08T09:04:48.158Z] [INFO] Total Matches: 1
+[2025-03-08T09:04:48.158Z] [INFO] ============================
+
+[2025-03-08T09:04:48.164Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T09:04:48.164Z] [INFO] Buy Orders: 0
+[2025-03-08T09:04:48.164Z] [INFO] Sell Orders: 2
+[2025-03-08T09:04:48.164Z] [INFO] Total Matches: 1
+[2025-03-08T09:04:48.164Z] [INFO] ============================
+
+[2025-03-08T09:04:48.892Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:48.893Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:48.892Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:48.892Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:48.892Z] [INFO]   ID: 5df843e0, Price: $78.56, Amount: 2.28, Client: client2
+[2025-03-08T09:04:48.892Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:48.892Z] [INFO]   Amount: 3.75, Price: $99.89, Buy: 993cfe71, Sell: 5df843e0
+[2025-03-08T09:04:48.892Z] [INFO] =========================
+
+[2025-03-08T09:04:48.893Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:48.893Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:48.893Z] [INFO]   ID: 36b012c5, Price: $99.52, Amount: 6.59, Client: client1
+[2025-03-08T09:04:48.893Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:48.893Z] [INFO]   Amount: 3.75, Price: $99.89, Buy: 993cfe71, Sell: 36b012c5
+[2025-03-08T09:04:48.893Z] [INFO] =========================
+
+[2025-03-08T09:04:48.896Z] [INFO] Orderbook synced successfully {"buyOrders":1,"sellOrders":0,"matches":1}
+[2025-03-08T09:04:48.897Z] [INFO] Orderbook synced successfully {"buyOrders":1,"sellOrders":0,"matches":1}
+[2025-03-08T09:04:48.901Z] [INFO] Submitting new sell order: $83.95 x 2.04
+[2025-03-08T09:04:48.901Z] [INFO] Submitting new sell order: $71.78 x 6.06
+[2025-03-08T09:04:48.901Z] [INFO] Submitting new order: ce947ab7-3483-4943-8471-7131b08ea638 {"id":"ce947ab7-3483-4943-8471-7131b08ea638","type":"sell","price":83.95,"amount":2.04}
+[2025-03-08T09:04:48.902Z] [INFO] Submitting new order: f96b04a8-8a50-4022-a10f-888f525338e6 {"id":"f96b04a8-8a50-4022-a10f-888f525338e6","type":"sell","price":71.78,"amount":6.06}
+[2025-03-08T09:04:48.910Z] [INFO] Order f96b04a8-8a50-4022-a10f-888f525338e6 processed from client client1 {"orderId":"f96b04a8-8a50-4022-a10f-888f525338e6","clientId":"client1","result":{"matches":1,"remainingOrder":"none"}}
+[2025-03-08T09:04:48.911Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T09:04:48.911Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:48.911Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:48.911Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:48.911Z] [INFO]   ID: f96b04a8, Price: $71.78, Amount: 1.34, Client: client1
+[2025-03-08T09:04:48.911Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:48.911Z] [INFO]   Amount: 6.20, Price: $58.64, Buy: 94e9c43c, Sell: 5a00674a
+[2025-03-08T09:04:48.911Z] [INFO]   Amount: 4.72, Price: $96.63, Buy: 94e9c43c, Sell: f96b04a8
+[2025-03-08T09:04:48.911Z] [INFO] =========================
+
+[2025-03-08T09:04:48.911Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T09:04:48.912Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:48.912Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:48.912Z] [INFO]   ID: 94e9c43c, Price: $96.63, Amount: 4.72, Client: client1
+[2025-03-08T09:04:48.912Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:48.912Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:48.912Z] [INFO]   Amount: 6.20, Price: $58.64, Buy: 94e9c43c, Sell: 5a00674a
+[2025-03-08T09:04:48.912Z] [INFO]   Amount: 2.04, Price: $96.63, Buy: 94e9c43c, Sell: ce947ab7
+[2025-03-08T09:04:48.912Z] [INFO] =========================
+
+[2025-03-08T09:04:53.903Z] [INFO] Submitting new buy order: $84.70 x 10.55
+[2025-03-08T09:04:53.903Z] [INFO] Submitting new buy order: $88.44 x 8.11
+[2025-03-08T09:04:53.904Z] [INFO] Submitting new order: 2f15da02-a6fc-45e3-b449-9a07f8159ac4 {"id":"2f15da02-a6fc-45e3-b449-9a07f8159ac4","type":"buy","price":88.44,"amount":8.11}
+[2025-03-08T09:04:53.904Z] [INFO] Submitting new order: e67fbd67-9aa5-4fce-82af-aad1ab2d6305 {"id":"e67fbd67-9aa5-4fce-82af-aad1ab2d6305","type":"buy","price":84.7,"amount":10.55}
+[2025-03-08T09:04:53.912Z] [INFO] Order e67fbd67-9aa5-4fce-82af-aad1ab2d6305 processed from client client1 {"orderId":"e67fbd67-9aa5-4fce-82af-aad1ab2d6305","clientId":"client1","result":{"matches":1,"remainingOrder":"exists"}}
+[2025-03-08T09:04:53.913Z] [INFO] Orderbook synced successfully {"buyOrders":1,"sellOrders":0,"matches":2}
+[2025-03-08T09:04:53.913Z] [INFO] Orderbook synced successfully {"buyOrders":1,"sellOrders":0,"matches":2}
+[2025-03-08T09:04:53.913Z] [INFO] Order 2f15da02-a6fc-45e3-b449-9a07f8159ac4 processed from client client2 {"orderId":"2f15da02-a6fc-45e3-b449-9a07f8159ac4","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T09:04:53.914Z] [INFO] Order added to the orderbook
+[2025-03-08T09:04:53.914Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:53.914Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:53.914Z] [INFO]   ID: 94e9c43c, Price: $96.63, Amount: 4.72, Client: client1
+[2025-03-08T09:04:53.914Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:53.914Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:53.914Z] [INFO]   Amount: 6.20, Price: $58.64, Buy: 94e9c43c, Sell: 5a00674a
+[2025-03-08T09:04:53.914Z] [INFO]   Amount: 1.34, Price: $96.63, Buy: 94e9c43c, Sell: f96b04a8
+[2025-03-08T09:04:53.914Z] [INFO] =========================
+
+[2025-03-08T09:04:53.914Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T09:04:53.914Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T09:04:53.914Z] [INFO] BUY ORDERS:
+[2025-03-08T09:04:53.914Z] [INFO]   ID: 94e9c43c, Price: $96.63, Amount: 4.72, Client: client1
+[2025-03-08T09:04:53.914Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T09:04:53.914Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T09:04:53.914Z] [INFO]   Amount: 6.20, Price: $58.64, Buy: 94e9c43c, Sell: 5a00674a
+[2025-03-08T09:04:53.914Z] [INFO]   Amount: 1.34, Price: $96.63, Buy: 94e9c43c, Sell: f96b04a8
+[2025-03-08T09:04:53.914Z] [INFO] =========================
+
