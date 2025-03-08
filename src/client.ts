@@ -1,1 +1,3 @@
-console.log("client connection")
+import {getConfig} from './config';
+
+const config = getConfig();
