@@ -1,0 +1,10 @@
+FROM node:18-alpine
+
+RUN apk add --no-cache wget busybox-extras && \
+    npm install -g grenache-grape
+
+WORKDIR /app
+
+RUN mkdir -p /app/logs
+
+CMD ["grape", "--dp", "20001", "--aph", "30001", "--bn", "127.0.0.1:20001"]

@@ -1,0 +1,144 @@
+services:
+  grape1:
+    build:
+      context: .
+      dockerfile: Dockerfile.grape
+    restart: unless-stopped
+    networks:
+      - bitfinex-net
+    command: grape --dp 20001 --aph 30002 --bn grape2:20002
+    ports:
+      - "30002:30002"
+      - "20001:20001"
+    volumes:
+      - ./logs:/app/logs
+    healthcheck:
+      test: [ "CMD", "nc", "-z", "localhost", "30002" ]
+      interval: 5s
+      timeout: 2s
+      retries: 5
+      start_period: 10s
+
+  grape2:
+    build:
+      context: .
+      dockerfile: Dockerfile.grape
+    restart: unless-stopped
+    networks:
+      - bitfinex-net
+    command: grape --dp 20002 --aph 40002 --bn grape1:20001
+    ports:
+      - "40002:40002"
+      - "20002:20002"
+    volumes:
+      - ./logs:/app/logs
+    healthcheck:
+      test: [ "CMD", "nc", "-z", "localhost", "40002" ]
+      interval: 5s
+      timeout: 2s
+      retries: 5
+      start_period: 10s
+
+  exchange-node1:
+    build: .
+    command: node dist/index.js
+    depends_on:
+      grape1:
+        condition: service_healthy
+      grape2:
+        condition: service_healthy
+    environment:
+      - NODE_ENV=production
+      - GRAPE_URL=http://grape1:30002
+      - NODE_PORT=1024
+      - NODE_TYPE=server
+      - CLIENT_ID=exchange-node1
+    networks:
+      - bitfinex-net
+    ports:
+      - "1024:1024"
+    volumes:
+      - ./logs:/app/logs
+    restart: on-failure
+    healthcheck:
+      test: [ "CMD-SHELL", "ps aux | grep 'node dist/index.js' | grep -v grep || exit 1" ]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  exchange-node2:
+    build: .
+    command: node dist/index.js
+    depends_on:
+      grape1:
+        condition: service_healthy
+      grape2:
+        condition: service_healthy
+    environment:
+      - NODE_ENV=production
+      - GRAPE_URL=http://grape2:40002
+      - NODE_PORT=3025
+      - NODE_TYPE=server
+      - CLIENT_ID=exchange-node2
+    networks:
+      - bitfinex-net
+    ports:
+      - "3025:3025"
+    volumes:
+      - ./logs:/app/logs
+    restart: on-failure
+    healthcheck:
+      test: [ "CMD-SHELL", "ps aux | grep 'node dist/index.js' | grep -v grep || exit 1" ]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  client1:
+    build: .
+    command: node dist/index.js
+    depends_on:
+      exchange-node1:
+        condition: service_healthy
+      exchange-node2:
+        condition: service_healthy
+    environment:
+      - NODE_ENV=production
+      - GRAPE_URL=http://grape1:30002
+      - NODE_PORT=9001
+      - NODE_TYPE=client
+      - CLIENT_ID=client1
+    networks:
+      - bitfinex-net
+    ports:
+      - "9001:9001"
+    volumes:
+      - ./logs:/app/logs
+    restart: on-failure
+
+  client2:
+    build: .
+    command: node dist/index.js
+    depends_on:
+      exchange-node1:
+        condition: service_healthy
+      exchange-node2:
+        condition: service_healthy
+    environment:
+      - NODE_ENV=production
+      - GRAPE_URL=http://grape2:40002
+      - NODE_PORT=9002
+      - NODE_TYPE=client
+      - CLIENT_ID=client2
+    networks:
+      - bitfinex-net
+    ports:
+      - "9002:9002"
+    volumes:
+      - ./logs:/app/logs
+    restart: on-failure
+
+networks:
+  bitfinex-net:
+    driver: bridge
