@@ -1,0 +1,209 @@
+[2025-03-08T07:47:12.771Z] [INFO] P2P Service initialized {"clientId":"node-ffc34e21-d452-4b57-9b10-9dc2dd03b346","serviceName":"exchange_service","port":3000,"isServer":true}
+[2025-03-08T07:47:12.772Z] [INFO] Starting server with ID: node-ffc34e21-d452-4b57-9b10-9dc2dd03b346
+[2025-03-08T07:47:12.772Z] [INFO] Listening on port: 3000
+[2025-03-08T07:47:12.772Z] [INFO] Started Grenache link
+[2025-03-08T07:47:12.772Z] [INFO] Initializing server...
+[2025-03-08T07:47:12.773Z] [INFO] Server listening on port 3000
+[2025-03-08T07:47:12.773Z] [INFO] Started announcing service exchange_service on port 3000
+Server started
+[2025-03-08T07:47:17.774Z] [INFO] P2P service started, connected to Grape
+[2025-03-08T07:47:17.775Z] [INFO] Announcing service: exchange_service
+[2025-03-08T07:47:27.776Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:47:27.776Z] [INFO] Buy Orders: 0
+[2025-03-08T07:47:27.777Z] [INFO] Sell Orders: 0
+[2025-03-08T07:47:27.777Z] [INFO] Total Matches: 0
+[2025-03-08T07:47:27.777Z] [INFO] ============================
+
+Validating order data: {"id":"2dc96cf2-b846-4af1-a5b9-ed6716fc97fc","type":"sell","price":79.69,"amount":8.34,"clientId":"client1","originalAmount":8.34,"timestamp":1741420052796,"status":"open","version":1}
+[2025-03-08T07:47:32.809Z] [INFO] Order 2dc96cf2-b846-4af1-a5b9-ed6716fc97fc processed from client client1 {"orderId":"2dc96cf2-b846-4af1-a5b9-ed6716fc97fc","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:47:37.776Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:47:37.776Z] [INFO] Buy Orders: 0
+[2025-03-08T07:47:37.776Z] [INFO] Sell Orders: 1
+[2025-03-08T07:47:37.776Z] [INFO] Total Matches: 0
+[2025-03-08T07:47:37.776Z] [INFO] ============================
+
+Validating order data: {"id":"297846ae-66fe-4db8-891f-6c561acadd52","type":"buy","price":62.09,"amount":5.92,"clientId":"client2","originalAmount":5.92,"timestamp":1741420057795,"status":"open","version":1}
+[2025-03-08T07:47:37.803Z] [INFO] Order 297846ae-66fe-4db8-891f-6c561acadd52 processed from client client2 {"orderId":"297846ae-66fe-4db8-891f-6c561acadd52","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"573a157f-8ef8-49da-8673-9dd19251cc12","type":"sell","price":82.19,"amount":5.63,"clientId":"client2","originalAmount":5.63,"timestamp":1741420062798,"status":"open","version":1}
+[2025-03-08T07:47:43.826Z] [INFO] Order 573a157f-8ef8-49da-8673-9dd19251cc12 processed from client client2 {"orderId":"573a157f-8ef8-49da-8673-9dd19251cc12","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:47:47.778Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:47:47.780Z] [INFO] Buy Orders: 1
+[2025-03-08T07:47:47.780Z] [INFO] Sell Orders: 2
+[2025-03-08T07:47:47.780Z] [INFO] Total Matches: 0
+[2025-03-08T07:47:47.780Z] [INFO] ============================
+
+Validating order data: {"id":"fba751ee-ea69-4849-9e30-476c148e0271","type":"buy","price":54.93,"amount":2.34,"clientId":"client2","originalAmount":2.34,"timestamp":1741420067799,"status":"open","version":1}
+[2025-03-08T07:47:47.820Z] [INFO] Order fba751ee-ea69-4849-9e30-476c148e0271 processed from client client2 {"orderId":"fba751ee-ea69-4849-9e30-476c148e0271","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:47:57.778Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:47:57.779Z] [INFO] Buy Orders: 2
+[2025-03-08T07:47:57.779Z] [INFO] Sell Orders: 2
+[2025-03-08T07:47:57.779Z] [INFO] Total Matches: 0
+[2025-03-08T07:47:57.779Z] [INFO] ============================
+
+Validating order data: {"id":"6c3bc23e-2b6c-45e3-9b24-e7812dcc6ac5","type":"sell","price":71.59,"amount":0,"clientId":"client1","originalAmount":2.8,"timestamp":1741420077809,"status":"filled","version":2}
+Validating order data: {"id":"bbcdabf5-e5e8-4c82-9c8c-e2b5b1bf2fbb","type":"buy","price":85.64,"amount":7.25,"clientId":"client2","originalAmount":7.25,"timestamp":1741420082804,"status":"open","version":1}
+[2025-03-08T07:48:02.818Z] [INFO] Order bbcdabf5-e5e8-4c82-9c8c-e2b5b1bf2fbb processed from client client2 {"orderId":"bbcdabf5-e5e8-4c82-9c8c-e2b5b1bf2fbb","clientId":"client2","result":{"matches":1,"remainingOrder":"none"}}
+Validating order data: {"id":"e780a132-fe55-4eff-9011-c893c9fa3483","type":"sell","price":71.09,"amount":0,"clientId":"client1","originalAmount":6.47,"timestamp":1741420082811,"status":"filled","version":2}
+[2025-03-08T07:48:07.779Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:48:07.779Z] [INFO] Buy Orders: 2
+[2025-03-08T07:48:07.779Z] [INFO] Sell Orders: 2
+[2025-03-08T07:48:07.779Z] [INFO] Total Matches: 1
+[2025-03-08T07:48:07.779Z] [INFO] ============================
+
+Validating order data: {"id":"f8bca904-30e4-4516-9053-12b6f4f07bc1","type":"sell","price":86.92,"amount":2.9299999999999997,"clientId":"client1","originalAmount":10.03,"timestamp":1741420087810,"status":"partially_filled","version":2}
+[2025-03-08T07:48:07.814Z] [INFO] Order f8bca904-30e4-4516-9053-12b6f4f07bc1 processed from client client1 {"orderId":"f8bca904-30e4-4516-9053-12b6f4f07bc1","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:48:17.780Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:48:17.780Z] [INFO] Buy Orders: 2
+[2025-03-08T07:48:17.780Z] [INFO] Sell Orders: 3
+[2025-03-08T07:48:17.780Z] [INFO] Total Matches: 1
+[2025-03-08T07:48:17.780Z] [INFO] ============================
+
+Validating order data: {"id":"b96f2789-45c8-4ed1-855b-a2012a672dfd","type":"buy","price":75.32,"amount":10.29,"clientId":"client2","originalAmount":10.29,"timestamp":1741420097808,"status":"open","version":1}
+[2025-03-08T07:48:17.822Z] [INFO] Order b96f2789-45c8-4ed1-855b-a2012a672dfd processed from client client2 {"orderId":"b96f2789-45c8-4ed1-855b-a2012a672dfd","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:48:27.781Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:48:27.781Z] [INFO] Buy Orders: 3
+[2025-03-08T07:48:27.782Z] [INFO] Sell Orders: 3
+[2025-03-08T07:48:27.782Z] [INFO] Total Matches: 1
+[2025-03-08T07:48:27.783Z] [INFO] ============================
+
+Validating order data: {"id":"09e6321a-cd54-49cd-9b35-2089522f3d01","type":"buy","price":81.16,"amount":0,"clientId":"client2","originalAmount":7.95,"timestamp":1741420107809,"status":"filled","version":2}
+Validating order data: {"id":"dc0997d2-a159-4458-8dca-4a16f64c6720","type":"buy","price":58.95,"amount":2.24,"clientId":"client1","originalAmount":2.24,"timestamp":1741420107813,"status":"open","version":1}
+[2025-03-08T07:48:27.816Z] [INFO] Order dc0997d2-a159-4458-8dca-4a16f64c6720 processed from client client1 {"orderId":"dc0997d2-a159-4458-8dca-4a16f64c6720","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"b0737f29-19cf-4391-b9e8-65c8e1bf6693","type":"sell","price":90.28,"amount":0,"clientId":"client1","originalAmount":5.3,"timestamp":1741420112813,"status":"filled","version":2}
+Validating order data: {"id":"09a478c5-5a06-4aa7-a683-4eb75eb29179","type":"buy","price":86.42,"amount":0,"clientId":"client2","originalAmount":1.69,"timestamp":1741420112810,"status":"filled","version":2}
+[2025-03-08T07:48:37.782Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:48:37.782Z] [INFO] Buy Orders: 4
+[2025-03-08T07:48:37.782Z] [INFO] Sell Orders: 3
+[2025-03-08T07:48:37.782Z] [INFO] Total Matches: 1
+[2025-03-08T07:48:37.782Z] [INFO] ============================
+
+Validating order data: {"id":"5ca89af0-2049-4531-ab1e-5cc7697eff31","type":"buy","price":99.36,"amount":0,"clientId":"client1","originalAmount":9.44,"timestamp":1741420122813,"status":"filled","version":2}
+[2025-03-08T07:48:47.783Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:48:47.783Z] [INFO] Buy Orders: 4
+[2025-03-08T07:48:47.783Z] [INFO] Sell Orders: 3
+[2025-03-08T07:48:47.784Z] [INFO] Total Matches: 1
+[2025-03-08T07:48:47.784Z] [INFO] ============================
+
+Validating order data: {"id":"c5622fed-4e23-45d4-a14a-9f1432249f67","type":"buy","price":68.01,"amount":2.34,"clientId":"client1","originalAmount":2.34,"timestamp":1741420127814,"status":"open","version":1}
+[2025-03-08T07:48:47.819Z] [INFO] Order c5622fed-4e23-45d4-a14a-9f1432249f67 processed from client client1 {"orderId":"c5622fed-4e23-45d4-a14a-9f1432249f67","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"df1d0741-04fe-4f28-be00-5ca7942d8e0e","type":"buy","price":96.15,"amount":0,"clientId":"client2","originalAmount":8.75,"timestamp":1741420132811,"status":"filled","version":2}
+[2025-03-08T07:48:57.783Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:48:57.784Z] [INFO] Buy Orders: 5
+[2025-03-08T07:48:57.785Z] [INFO] Sell Orders: 3
+[2025-03-08T07:48:57.785Z] [INFO] Total Matches: 1
+[2025-03-08T07:48:57.785Z] [INFO] ============================
+
+Validating order data: {"id":"b3c84348-3606-4463-bb25-2a178fc453d3","type":"sell","price":97.77,"amount":4.7,"clientId":"client1","originalAmount":4.7,"timestamp":1741420137815,"status":"open","version":1}
+[2025-03-08T07:48:57.823Z] [INFO] Order b3c84348-3606-4463-bb25-2a178fc453d3 processed from client client1 {"orderId":"b3c84348-3606-4463-bb25-2a178fc453d3","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"27416d71-ee46-411c-9d9a-0943a9d30e75","type":"buy","price":71.27,"amount":8.1,"clientId":"client1","originalAmount":8.1,"timestamp":1741420142815,"status":"open","version":1}
+[2025-03-08T07:49:02.824Z] [INFO] Order 27416d71-ee46-411c-9d9a-0943a9d30e75 processed from client client1 {"orderId":"27416d71-ee46-411c-9d9a-0943a9d30e75","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:49:07.784Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:49:07.785Z] [INFO] Buy Orders: 6
+[2025-03-08T07:49:07.786Z] [INFO] Sell Orders: 4
+[2025-03-08T07:49:07.786Z] [INFO] Total Matches: 1
+[2025-03-08T07:49:07.786Z] [INFO] ============================
+
+Validating order data: {"id":"738b592b-0cfb-44f4-a0b0-d9fea730a536","type":"buy","price":68.61,"amount":4.39,"clientId":"client2","originalAmount":4.39,"timestamp":1741420147812,"status":"open","version":1}
+[2025-03-08T07:49:07.814Z] [INFO] Order 738b592b-0cfb-44f4-a0b0-d9fea730a536 processed from client client2 {"orderId":"738b592b-0cfb-44f4-a0b0-d9fea730a536","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"4b9532e4-3996-487a-958a-7de81c9c6021","type":"sell","price":99.59,"amount":7.97,"clientId":"client1","originalAmount":7.97,"timestamp":1741420152817,"status":"open","version":1}
+[2025-03-08T07:49:12.819Z] [INFO] Order 4b9532e4-3996-487a-958a-7de81c9c6021 processed from client client1 {"orderId":"4b9532e4-3996-487a-958a-7de81c9c6021","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"43606640-018a-42d2-ae28-6a3cb552be37","type":"sell","price":70.4,"amount":0,"clientId":"client2","originalAmount":1.67,"timestamp":1741420152817,"status":"filled","version":2}
+[2025-03-08T07:49:17.786Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:49:17.787Z] [INFO] Buy Orders: 7
+[2025-03-08T07:49:17.787Z] [INFO] Sell Orders: 5
+[2025-03-08T07:49:17.787Z] [INFO] Total Matches: 1
+[2025-03-08T07:49:17.787Z] [INFO] ============================
+
+[2025-03-08T07:49:27.786Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:49:27.786Z] [INFO] Buy Orders: 7
+[2025-03-08T07:49:27.787Z] [INFO] Sell Orders: 5
+[2025-03-08T07:49:27.787Z] [INFO] Total Matches: 1
+[2025-03-08T07:49:27.787Z] [INFO] ============================
+
+Validating order data: {"id":"50967405-9f4b-46af-afed-52bd1c098f12","type":"buy","price":89.69,"amount":0,"clientId":"client2","originalAmount":9.42,"timestamp":1741420167824,"status":"filled","version":3}
+[2025-03-08T07:49:37.787Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:49:37.787Z] [INFO] Buy Orders: 7
+[2025-03-08T07:49:37.787Z] [INFO] Sell Orders: 5
+[2025-03-08T07:49:37.787Z] [INFO] Total Matches: 1
+[2025-03-08T07:49:37.787Z] [INFO] ============================
+
+Validating order data: {"id":"0f90499a-db0c-4642-93ae-e2dc76b6a57a","type":"buy","price":89.47,"amount":0,"clientId":"client1","originalAmount":2.8,"timestamp":1741420177819,"status":"filled","version":2}
+[2025-03-08T07:49:47.788Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:49:47.788Z] [INFO] Buy Orders: 7
+[2025-03-08T07:49:47.788Z] [INFO] Sell Orders: 5
+[2025-03-08T07:49:47.788Z] [INFO] Total Matches: 1
+[2025-03-08T07:49:47.788Z] [INFO] ============================
+
+Validating order data: {"id":"c079b2d9-b3d1-49f2-83f6-4632d890a3f5","type":"buy","price":70.42,"amount":7.22,"clientId":"client1","originalAmount":7.22,"timestamp":1741420187823,"status":"open","version":1}
+[2025-03-08T07:49:47.826Z] [INFO] Order c079b2d9-b3d1-49f2-83f6-4632d890a3f5 processed from client client1 {"orderId":"c079b2d9-b3d1-49f2-83f6-4632d890a3f5","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"3d50aa38-185a-42a1-a6f8-c299909fa53f","type":"sell","price":76.08,"amount":2.76,"clientId":"client1","originalAmount":2.76,"timestamp":1741420192825,"status":"open","version":1}
+[2025-03-08T07:49:52.827Z] [INFO] Order 3d50aa38-185a-42a1-a6f8-c299909fa53f processed from client client1 {"orderId":"3d50aa38-185a-42a1-a6f8-c299909fa53f","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:49:57.789Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:49:57.789Z] [INFO] Buy Orders: 8
+[2025-03-08T07:49:57.789Z] [INFO] Sell Orders: 6
+[2025-03-08T07:49:57.789Z] [INFO] Total Matches: 1
+[2025-03-08T07:49:57.790Z] [INFO] ============================
+
+Validating order data: {"id":"926bd00a-a27c-4a2c-bbee-653d179368e1","type":"sell","price":96.14,"amount":5.98,"clientId":"client2","originalAmount":5.98,"timestamp":1741420197826,"status":"open","version":1}
+[2025-03-08T07:49:57.836Z] [INFO] Order 926bd00a-a27c-4a2c-bbee-653d179368e1 processed from client client2 {"orderId":"926bd00a-a27c-4a2c-bbee-653d179368e1","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"9c4d2c85-2b79-4625-a449-d0b3c26174a7","type":"sell","price":65.81,"amount":0,"clientId":"client2","originalAmount":10.02,"timestamp":1741420202827,"status":"filled","version":2}
+[2025-03-08T07:50:07.789Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:07.789Z] [INFO] Buy Orders: 8
+[2025-03-08T07:50:07.790Z] [INFO] Sell Orders: 7
+[2025-03-08T07:50:07.790Z] [INFO] Total Matches: 1
+[2025-03-08T07:50:07.790Z] [INFO] ============================
+
+Validating order data: {"id":"96f00678-3f91-4da7-818e-58df110be9ed","type":"buy","price":99.16,"amount":0,"clientId":"client2","originalAmount":6.04,"timestamp":1741420207831,"status":"filled","version":3}
+Validating order data: {"id":"4e2de933-fe02-4cff-afdd-286246bfe1ce","type":"buy","price":96.73,"amount":0,"clientId":"client1","originalAmount":2.9,"timestamp":1741420207825,"status":"filled","version":3}
+Validating order data: {"id":"e7e20b20-5d25-4eaa-bebd-58ae0a3ab0ac","type":"sell","price":98.65,"amount":9.46,"clientId":"client1","originalAmount":9.46,"timestamp":1741420212825,"status":"open","version":1}
+[2025-03-08T07:50:12.827Z] [INFO] Order e7e20b20-5d25-4eaa-bebd-58ae0a3ab0ac processed from client client1 {"orderId":"e7e20b20-5d25-4eaa-bebd-58ae0a3ab0ac","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"b0acb4a5-fb92-42db-af5f-136afcf346ec","type":"sell","price":66.46,"amount":0,"clientId":"client2","originalAmount":7.23,"timestamp":1741420212831,"status":"filled","version":2}
+[2025-03-08T07:50:17.789Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:17.790Z] [INFO] Buy Orders: 8
+[2025-03-08T07:50:17.790Z] [INFO] Sell Orders: 8
+[2025-03-08T07:50:17.790Z] [INFO] Total Matches: 1
+[2025-03-08T07:50:17.790Z] [INFO] ============================
+
+Validating order data: {"id":"0f3a5319-3647-4730-bb86-a953720db8e8","type":"buy","price":64.36,"amount":8.87,"clientId":"client1","originalAmount":8.87,"timestamp":1741420217825,"status":"open","version":1}
+[2025-03-08T07:50:17.835Z] [INFO] Order 0f3a5319-3647-4730-bb86-a953720db8e8 processed from client client1 {"orderId":"0f3a5319-3647-4730-bb86-a953720db8e8","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"1219be8e-d457-4be3-8cdd-1944309c407e","type":"buy","price":94.35,"amount":0,"clientId":"client2","originalAmount":6.33,"timestamp":1741420217832,"status":"filled","version":3}
+Validating order data: {"id":"4170282a-d792-4110-83a6-b350e7701ae3","type":"sell","price":77.33,"amount":3.08,"clientId":"client1","originalAmount":3.08,"timestamp":1741420222825,"status":"open","version":1}
+[2025-03-08T07:50:22.830Z] [INFO] Order 4170282a-d792-4110-83a6-b350e7701ae3 processed from client client1 {"orderId":"4170282a-d792-4110-83a6-b350e7701ae3","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:50:27.789Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:27.791Z] [INFO] Buy Orders: 9
+[2025-03-08T07:50:27.791Z] [INFO] Sell Orders: 9
+[2025-03-08T07:50:27.791Z] [INFO] Total Matches: 1
+[2025-03-08T07:50:27.791Z] [INFO] ============================
+
+Validating order data: {"id":"80bdaa7c-1f67-4b71-a4ba-680dea01bfbc","type":"sell","price":80.7,"amount":0,"clientId":"client1","originalAmount":6.49,"timestamp":1741420232827,"status":"filled","version":2}
+Validating order data: {"id":"1b1dabcb-ae86-4c1d-9801-84fac6f523b7","type":"buy","price":67.68,"amount":3.73,"clientId":"client2","originalAmount":3.73,"timestamp":1741420232836,"status":"open","version":1}
+[2025-03-08T07:50:32.841Z] [INFO] Order 1b1dabcb-ae86-4c1d-9801-84fac6f523b7 processed from client client2 {"orderId":"1b1dabcb-ae86-4c1d-9801-84fac6f523b7","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:50:37.791Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:37.792Z] [INFO] Buy Orders: 10
+[2025-03-08T07:50:37.792Z] [INFO] Sell Orders: 9
+[2025-03-08T07:50:37.792Z] [INFO] Total Matches: 1
+[2025-03-08T07:50:37.792Z] [INFO] ============================
+
+Validating order data: {"id":"642daeaf-eac1-470b-91c9-6274c70de3c1","type":"sell","price":77.63,"amount":2.94,"clientId":"client1","originalAmount":2.94,"timestamp":1741420237828,"status":"open","version":1}
+[2025-03-08T07:50:37.830Z] [INFO] Order 642daeaf-eac1-470b-91c9-6274c70de3c1 processed from client client1 {"orderId":"642daeaf-eac1-470b-91c9-6274c70de3c1","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"7bbc335a-0c25-458c-b1b2-77e3dbf1c97b","type":"sell","price":62.86,"amount":0,"clientId":"client2","originalAmount":6.56,"timestamp":1741420237835,"status":"filled","version":2}
