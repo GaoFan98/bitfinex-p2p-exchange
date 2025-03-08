@@ -1,5 +1,4 @@
 // refer to https://github.com/bitfinexcom/grenache-nodejs-link
-
 declare module 'grenache-nodejs-http' {
     interface LinkOptions {
         grape: string
