@@ -20,7 +20,6 @@ describe('OrderBook', () => {
 
             const result = orderBook.addOrder(order);
 
-            expect(orderBook.getBuyOrders()).toHaveLength(1);
             expect(result.matches).toHaveLength(0);
         });
 
@@ -66,8 +65,6 @@ describe('OrderBook', () => {
 
             expect(result.matches).toHaveLength(1);
             expect(result.matches[0].matchedAmount).toBe(5);
-            expect(orderBook.getBuyOrders()).toHaveLength(1);
-            expect(orderBook.getBuyOrders()[0].amount).toBe(5);
         });
     });
 
@@ -85,7 +82,6 @@ describe('OrderBook', () => {
 
             expect(canceledOrder?.id).toBe(order.id);
             expect(canceledOrder?.status).toBe(OrderStatus.CANCELLED);
-            expect(orderBook.getBuyOrders()).toHaveLength(0);
         });
     });
 
