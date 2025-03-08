@@ -3,7 +3,6 @@ import {getConfig} from './config';
 const config = getConfig();
 
 if (config.nodeType === 'server') {
-    // TODO implement server and client connection
     import('./server')
         .then(() => console.log('Server started'))
         .catch(err => {

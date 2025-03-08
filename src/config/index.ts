@@ -13,12 +13,11 @@ export interface Config {
 const LOCALHOST_URL: string = 'http://127.0.0.1:30001'
 
 export function getConfig(): Config {
-    const nodeType: NodeType = (process.env.NODE_TYPE as NodeType) || 'client';
-    const grapeUrl = LOCALHOST_URL;
-    // TODO: specfy node and client id, for now random is fine
-    const nodePort =
+    const nodeType = (process.env.NODE_TYPE as NodeType) || 'client';
+    const grapeUrl = process.env.GRAPE_URL || 'http://127.0.0.1:30001';
+    const nodePort = parseInt(process.env.NODE_PORT || '0', 10) ||
         Math.floor(1024 + Math.random() * 1000);
-    const clientId =`node-${randomUUID()}`;
+    const clientId = process.env.CLIENT_ID || `node-${randomUUID()}`;
 
     const serviceName = 'exchange_service';
 
