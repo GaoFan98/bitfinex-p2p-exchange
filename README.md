@@ -32,7 +32,7 @@ All components work together to provide a resilient, distributed trading platfor
 
 ## Quick Start
 
-Please follow commands below:
+The simplest way to run the entire system is using the provided script:
 
 1. Install dependencies:
    ```
@@ -44,11 +44,21 @@ Please follow commands below:
    npm run build
    ```
 
-3. Run test:
+3. Run the entire system with one command:
    ```
-   npm run test
+   bash run_local_test.sh
    ```
 
+This script automatically:
+- Starts Grape DHT nodes
+- Launches exchange server nodes
+- Starts client nodes
+- Runs the system for 30 seconds
+- Provides a detailed activity summary at the end
+- Creates log files for all components
+
+No additional steps are required - everything is handled for you.
+(I added logs files example just in case, but when you run the script, it will anyway remove the logs file and replace with the new ones)
 
 ## Troubleshooting
 
