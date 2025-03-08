@@ -76,7 +76,7 @@ Logs are stored in the `logs` directory:
 - Orders being added locally but not propagated to the network
 
 #### Root Causes
-
+Issue is mainly caused by https://github.com/bitfinexcom/grenache-nodejs-http/tree/master/lib
 1. **Service Discovery Timing**: In Docker, the grape nodes and exchange services may not be fully ready when clients attempt to connect, even when using the `depends_on` with healthchecks.
 
 2. **IP vs. Hostname Resolution**: Clients are trying to connect to exchange nodes using IP addresses (e.g., 172.18.0.3) rather than container names. The Grenache DHT advertises services with their IP addresses, which can cause issues in Docker networks.
