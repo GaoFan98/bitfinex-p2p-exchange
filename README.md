@@ -32,7 +32,7 @@ All components work together to provide a resilient, distributed trading platfor
 
 ## Quick Start
 
-PLese follow commands below:
+Please follow commands below:
 
 1. Install dependencies:
    ```
@@ -42,6 +42,11 @@ PLese follow commands below:
 2. Build the TypeScript code:
    ```
    npm run build
+   ```
+
+3. Run test:
+   ```
+   npm run test
    ```
 
 
