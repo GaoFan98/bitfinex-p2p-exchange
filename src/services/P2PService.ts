@@ -423,6 +423,178 @@ export class P2PService {
                 return handler.reply(null, {status: 'skipped', reason: 'own request'});
             }
 
+            const {action, data} = rawPayload;
+
+            this.logger.debug(`Handling ${action} request from ${rawPayload.clientId}`, {
+                action,
+                clientId: rawPayload.clientId
+            });
+
+            // Mutex to prevent race conditions
+            switch (action) {
+                case ServiceAction.SUBMIT_ORDER: {
+                    // Acquire lock before processing order submission
+                    const release = await this.orderMutex.acquire();
+                    try {
+                        if (!data || typeof data !== 'object') {
+                            throw new Error('Invalid order data');
+                        }
+
+                        const orderData = data.order as Record<string, unknown>;
+                        const order = Order.fromObject(orderData);
+
+                        if (!order.isActive()) {
+                            this.logger.debug(`Skipping inactive order ${order.id} with status ${order.status}`, {
+                                orderId: order.id,
+                                clientId: order.clientId,
+                                status: order.status
+                            });
+
+                            return handler.reply(null, {
+                                status: 'success',
+                                result: {
+                                    order: order.toJSON(),
+                                    matches: [],
+                                    remainingOrder: null
+                                }
+                            });
+                        }
+
+                        const result = this.orderbook.addOrder(order);
+                        this.logger.info(`Order ${order.id} processed from client ${rawPayload.clientId}`, {
+                            orderId: order.id,
+                            clientId: order.clientId,
+                            result: {
+                                matches: result.matches.length,
+                                remainingOrder: result.remainingOrder ? 'exists' : 'none'
+                            }
+                        });
+
+                        handler.reply(null, {
+                            status: 'success',
+                            result
+                        });
+                    } catch (err) {
+                        this.logger.error('Failed to process order', err as Error, {action});
+                        handler.reply(err as Error);
+                    } finally {
+                        release();
+                    }
+                    break;
+                }
+
+                case ServiceAction.SYNC_ORDERBOOK: {
+                    // Acquire lock before syncing orderbook
+                    const release = await this.orderMutex.acquire();
+                    try {
+                        if (!data || typeof data !== 'object') {
+                            throw new Error('Invalid orderbook state data');
+                        }
+
+                        const state = data.state as Record<string, unknown>;
+                        if (this.isValidState(state)) {
+                            this.logger.info('Syncing orderbook state from client', {
+                                clientId: rawPayload.clientId,
+                                buyOrders: (state.buyOrders as unknown[]).length,
+                                sellOrders: (state.sellOrders as unknown[]).length,
+                                matches: (state.matches as unknown[]).length
+                            });
+
+                            this.orderbook.setState({
+                                buyOrders: this.safelyMapOrders(state.buyOrders as unknown[]),
+                                sellOrders: this.safelyMapOrders(state.sellOrders as unknown[]),
+                                matches: state.matches as OrderMatch[]
+                            });
+
+                            handler.reply(null, {status: 'success'});
+                        } else {
+                            throw new Error('Invalid orderbook state format');
+                        }
+                    } catch (err) {
+                        this.logger.error('Failed to sync orderbook', err as Error, {action});
+                        handler.reply(err as Error);
+                    } finally {
+                        // Always release the lock
+                        release();
+                    }
+                    break;
+                }
+
+                case ServiceAction.GET_ORDERBOOK: {
+                    try {
+                        this.logger.debug('Processing get orderbook request', {clientId: rawPayload.clientId});
+
+                        const state = this.getOrderbookState();
+
+                        handler.reply(null, {
+                            status: 'success',
+                            state
+                        });
+                    } catch (err) {
+                        this.logger.error('Failed to get orderbook', err as Error, {action});
+                        handler.reply(err as Error);
+                    }
+                    break;
+                }
+
+                case ServiceAction.ANNOUNCE_MATCH: {
+                    // Acquire lock for match processing
+                    const release = await this.orderMutex.acquire();
+                    try {
+                        if (!data || typeof data !== 'object') {
+                            throw new Error('Invalid match data');
+                        }
+
+                        if (!this.isValidMatchData(data)) {
+                            throw new Error('Invalid match format');
+                        }
+
+                        this.logger.info('Processing match announcement', {
+                            matchId: data.id,
+                            buyOrderId: data.buyOrder.id,
+                            sellOrderId: data.sellOrder.id,
+                            price: data.price,
+                            amount: data.matchedAmount
+                        });
+
+                        handler.reply(null, {status: 'success'});
+                    } catch (err) {
+                        this.logger.error('Failed to process match', err as Error, {action});
+                        handler.reply(err as Error);
+                    } finally {
+                        release();
+                    }
+                    break;
+                }
+
+                case ServiceAction.CANCEL_ORDER: {
+                    const release = await this.orderMutex.acquire();
+                    try {
+                        if (!data || typeof data !== 'object' || typeof data.orderId !== 'string') {
+                            throw new Error('Invalid order cancellation data');
+                        }
+
+                        const orderId = data.orderId as string;
+                        this.logger.info(`Processing order cancellation for ${orderId}`, {orderId});
+
+                        const canceledOrder = this.orderbook.cancelOrder(orderId);
+
+                        handler.reply(null, {
+                            status: 'success',
+                            canceledOrder
+                        });
+                    } catch (err) {
+                        this.logger.error('Failed to cancel order', err as Error, {action});
+                        handler.reply(err as Error);
+                    } finally {
+                        release();
+                    }
+                    break;
+                }
+
+                default:
+                    handler.reply(new Error(`Unknown action: ${action}`));
+            }
         } catch (err) {
             this.logger.error('Request handling error', err as Error);
             handler.reply(err as Error);
@@ -442,6 +614,26 @@ export class P2PService {
             Object.values(ServiceAction).includes(payload.action as ServiceAction) &&
             !!payload.data &&
             typeof payload.data === 'object'
+        );
+    }
+
+    private isValidMatchData(data: Record<string, unknown>): data is {
+        id: string;
+        buyOrder: Record<string, unknown>;
+        sellOrder: Record<string, unknown>;
+        matchedAmount: number;
+        price: number;
+        timestamp: number;
+    } {
+        return (
+            typeof data.id === 'string' &&
+            typeof data.matchedAmount === 'number' &&
+            typeof data.price === 'number' &&
+            typeof data.timestamp === 'number' &&
+            data.buyOrder !== undefined &&
+            typeof data.buyOrder === 'object' &&
+            data.sellOrder !== undefined &&
+            typeof data.sellOrder === 'object'
         );
     }
 
