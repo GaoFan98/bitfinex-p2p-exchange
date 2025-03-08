@@ -1916,3 +1916,405 @@ RECENT MATCHES:
 [2025-03-08T07:50:37.833Z] [INFO]   Amount: 7.25, Price: $79.69, Buy: bbcdabf5, Sell: 2dc96cf2
 [2025-03-08T07:50:37.833Z] [INFO] =========================
 
+Validating order data: {"id":"bbcdabf5-e5e8-4c82-9c8c-e2b5b1bf2fbb","type":"buy","price":85.64,"amount":0,"clientId":"client2","originalAmount":7.25,"timestamp":1741420082804,"status":"filled","version":2}
+Validating order data: {"id":"2dc96cf2-b846-4af1-a5b9-ed6716fc97fc","type":"sell","price":79.69,"amount":1.0899999999999999,"clientId":"client1","originalAmount":8.34,"timestamp":1741420052796,"status":"partially_filled","version":2}
+Validating order data: {"id":"b96f2789-45c8-4ed1-855b-a2012a672dfd","type":"buy","price":75.32,"amount":10.29,"clientId":"client2","originalAmount":10.29,"timestamp":1741420097808,"status":"open","version":1}
+Validating order data: {"id":"27416d71-ee46-411c-9d9a-0943a9d30e75","type":"buy","price":71.27,"amount":8.1,"clientId":"client1","originalAmount":8.1,"timestamp":1741420142815,"status":"open","version":1}
+Validating order data: {"id":"c079b2d9-b3d1-49f2-83f6-4632d890a3f5","type":"buy","price":70.42,"amount":7.22,"clientId":"client1","originalAmount":7.22,"timestamp":1741420187823,"status":"open","version":1}
+Validating order data: {"id":"738b592b-0cfb-44f4-a0b0-d9fea730a536","type":"buy","price":68.61,"amount":4.39,"clientId":"client2","originalAmount":4.39,"timestamp":1741420147812,"status":"open","version":1}
+Validating order data: {"id":"c5622fed-4e23-45d4-a14a-9f1432249f67","type":"buy","price":68.01,"amount":2.34,"clientId":"client1","originalAmount":2.34,"timestamp":1741420127814,"status":"open","version":1}
+Validating order data: {"id":"1b1dabcb-ae86-4c1d-9801-84fac6f523b7","type":"buy","price":67.68,"amount":3.73,"clientId":"client2","originalAmount":3.73,"timestamp":1741420232836,"status":"open","version":1}
+Validating order data: {"id":"0f3a5319-3647-4730-bb86-a953720db8e8","type":"buy","price":64.36,"amount":8.87,"clientId":"client1","originalAmount":8.87,"timestamp":1741420217825,"status":"open","version":1}
+Validating order data: {"id":"297846ae-66fe-4db8-891f-6c561acadd52","type":"buy","price":62.09,"amount":5.92,"clientId":"client2","originalAmount":5.92,"timestamp":1741420057795,"status":"open","version":1}
+Validating order data: {"id":"dc0997d2-a159-4458-8dca-4a16f64c6720","type":"buy","price":58.95,"amount":2.24,"clientId":"client1","originalAmount":2.24,"timestamp":1741420107813,"status":"open","version":1}
+Validating order data: {"id":"fba751ee-ea69-4849-9e30-476c148e0271","type":"buy","price":54.93,"amount":2.34,"clientId":"client2","originalAmount":2.34,"timestamp":1741420067799,"status":"open","version":1}
+Validating order data: {"id":"3d50aa38-185a-42a1-a6f8-c299909fa53f","type":"sell","price":76.08,"amount":2.76,"clientId":"client1","originalAmount":2.76,"timestamp":1741420192825,"status":"open","version":1}
+Validating order data: {"id":"4170282a-d792-4110-83a6-b350e7701ae3","type":"sell","price":77.33,"amount":3.08,"clientId":"client1","originalAmount":3.08,"timestamp":1741420222825,"status":"open","version":1}
+Validating order data: {"id":"642daeaf-eac1-470b-91c9-6274c70de3c1","type":"sell","price":77.63,"amount":2.94,"clientId":"client1","originalAmount":2.94,"timestamp":1741420237828,"status":"open","version":1}
+Validating order data: {"id":"2dc96cf2-b846-4af1-a5b9-ed6716fc97fc","type":"sell","price":79.69,"amount":8.34,"clientId":"client1","originalAmount":8.34,"timestamp":1741420052796,"status":"open","version":1}
+Validating order data: {"id":"573a157f-8ef8-49da-8673-9dd19251cc12","type":"sell","price":82.19,"amount":5.63,"clientId":"client2","originalAmount":5.63,"timestamp":1741420062798,"status":"open","version":1}
+Validating order data: {"id":"f8bca904-30e4-4516-9053-12b6f4f07bc1","type":"sell","price":86.92,"amount":2.9299999999999997,"clientId":"client1","originalAmount":10.03,"timestamp":1741420087810,"status":"partially_filled","version":1}
+Validating order data: {"id":"926bd00a-a27c-4a2c-bbee-653d179368e1","type":"sell","price":96.14,"amount":5.98,"clientId":"client2","originalAmount":5.98,"timestamp":1741420197826,"status":"open","version":1}
+Validating order data: {"id":"b3c84348-3606-4463-bb25-2a178fc453d3","type":"sell","price":97.77,"amount":4.7,"clientId":"client1","originalAmount":4.7,"timestamp":1741420137815,"status":"open","version":1}
+Validating order data: {"id":"e7e20b20-5d25-4eaa-bebd-58ae0a3ab0ac","type":"sell","price":98.65,"amount":9.46,"clientId":"client1","originalAmount":9.46,"timestamp":1741420212825,"status":"open","version":1}
+Validating order data: {"id":"4b9532e4-3996-487a-958a-7de81c9c6021","type":"sell","price":99.59,"amount":7.97,"clientId":"client1","originalAmount":7.97,"timestamp":1741420152817,"status":"open","version":1}
+[2025-03-08T07:50:42.831Z] [INFO] Orderbook synced successfully {"buyOrders":10,"sellOrders":10,"matches":1}
+[2025-03-08T07:50:42.831Z] [INFO] Submitting new sell order: $51.13 x 2.59
+[2025-03-08T07:50:42.832Z] [INFO] Submitting new order: c4399bf1-17bc-4cf6-b3a5-75af1b7a11e9 {"id":"c4399bf1-17bc-4cf6-b3a5-75af1b7a11e9","type":"sell","price":51.13,"amount":2.59}
+[2025-03-08T07:50:42.834Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T07:50:42.834Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:42.834Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:42.834Z] [INFO]   ID: b96f2789, Price: $75.32, Amount: 10.29, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 27416d71, Price: $71.27, Amount: 8.10, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: c079b2d9, Price: $70.42, Amount: 7.22, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 738b592b, Price: $68.61, Amount: 4.39, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: c5622fed, Price: $68.01, Amount: 2.34, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 1b1dabcb, Price: $67.68, Amount: 3.73, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 0f3a5319, Price: $64.36, Amount: 8.87, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 297846ae, Price: $62.09, Amount: 5.92, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: dc0997d2, Price: $58.95, Amount: 2.24, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: fba751ee, Price: $54.93, Amount: 2.34, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 3d50aa38, Price: $76.08, Amount: 2.76, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 4170282a, Price: $77.33, Amount: 3.08, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 642daeaf, Price: $77.63, Amount: 2.94, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 2dc96cf2, Price: $79.69, Amount: 8.34, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 573a157f, Price: $82.19, Amount: 5.63, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: f8bca904, Price: $86.92, Amount: 2.93, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 926bd00a, Price: $96.14, Amount: 5.98, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: b3c84348, Price: $97.77, Amount: 4.70, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: e7e20b20, Price: $98.65, Amount: 9.46, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 4b9532e4, Price: $99.59, Amount: 7.97, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:42.834Z] [INFO]   Amount: 7.25, Price: $79.69, Buy: bbcdabf5, Sell: 2dc96cf2
+[2025-03-08T07:50:42.834Z] [INFO]   Amount: 2.59, Price: $75.32, Buy: b96f2789, Sell: c4399bf1
+[2025-03-08T07:50:42.835Z] [INFO] =========================
+
+[2025-03-08T07:50:47.815Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:47.816Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:47.816Z] [INFO]   ID: b96f2789, Price: $75.32, Amount: 10.29, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 27416d71, Price: $71.27, Amount: 8.10, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: c079b2d9, Price: $70.42, Amount: 7.22, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 738b592b, Price: $68.61, Amount: 4.39, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO]   ID: c5622fed, Price: $68.01, Amount: 2.34, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 1b1dabcb, Price: $67.68, Amount: 3.73, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 0f3a5319, Price: $64.36, Amount: 8.87, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 297846ae, Price: $62.09, Amount: 5.92, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO]   ID: dc0997d2, Price: $58.95, Amount: 2.24, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: fba751ee, Price: $54.93, Amount: 2.34, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 3d50aa38, Price: $76.08, Amount: 2.76, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 4170282a, Price: $77.33, Amount: 3.08, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 642daeaf, Price: $77.63, Amount: 2.94, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 2dc96cf2, Price: $79.69, Amount: 8.34, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 573a157f, Price: $82.19, Amount: 5.63, Client: client2
+[2025-03-08T07:50:47.817Z] [INFO]   ID: f8bca904, Price: $86.92, Amount: 2.93, Client: client1
+[2025-03-08T07:50:47.817Z] [INFO]   ID: 926bd00a, Price: $96.14, Amount: 5.98, Client: client2
+[2025-03-08T07:50:47.817Z] [INFO]   ID: b3c84348, Price: $97.77, Amount: 4.70, Client: client1
+[2025-03-08T07:50:47.817Z] [INFO]   ID: e7e20b20, Price: $98.65, Amount: 9.46, Client: client1
+[2025-03-08T07:50:47.817Z] [INFO]   ID: 4b9532e4, Price: $99.59, Amount: 7.97, Client: client1
+[2025-03-08T07:50:47.817Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:47.817Z] [INFO]   Amount: 7.25, Price: $79.69, Buy: bbcdabf5, Sell: 2dc96cf2
+[2025-03-08T07:50:47.817Z] [INFO]   Amount: 2.59, Price: $75.32, Buy: b96f2789, Sell: c4399bf1
+[2025-03-08T07:50:47.817Z] [INFO] =========================
+
+Validating order data: {"id":"cbe46d58-1be1-4b37-887e-1c00d8028140","type":"buy","price":99.32,"amount":0,"clientId":"client2","originalAmount":1.49,"timestamp":1741420052795,"status":"filled","version":2}
+Validating order data: {"id":"ac036147-01c3-4392-b995-e66fbc073933","type":"sell","price":52.63,"amount":0,"clientId":"client1","originalAmount":3.38,"timestamp":1741420062799,"status":"filled","version":3}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":6.699999999999999,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"ac036147-01c3-4392-b995-e66fbc073933","type":"sell","price":52.63,"amount":0,"clientId":"client1","originalAmount":3.38,"timestamp":1741420062799,"status":"filled","version":3}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":4.219999999999999,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"7b16c6ab-284a-4f26-b4fd-9674715bb0e2","type":"sell","price":78.08,"amount":0,"clientId":"client2","originalAmount":9.98,"timestamp":1741420087806,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":5.16,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"0b392337-3026-474c-9e17-0f2796f1029d","type":"sell","price":62.05,"amount":0,"clientId":"client1","originalAmount":1.94,"timestamp":1741420092811,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":6.289999999999999,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"2f64301f-a088-45b0-860b-621bf955bfd1","type":"sell","price":56.63,"amount":0,"clientId":"client1","originalAmount":6.73,"timestamp":1741420097815,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":3.8599999999999994,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"43f67de5-b531-4468-9e0c-adafa074290e","type":"sell","price":91.34,"amount":0,"clientId":"client2","originalAmount":3.24,"timestamp":1741420117809,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":0,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"filled","version":2}
+Validating order data: {"id":"3c86e0e1-672e-43bd-a948-4b6fc8d396ea","type":"sell","price":78.9,"amount":0,"clientId":"client1","originalAmount":9.25,"timestamp":1741420132814,"status":"filled","version":3}
+Validating order data: {"id":"3781acca-1471-4f62-a982-d2980459d6e0","type":"buy","price":90.38,"amount":2.05,"clientId":"client2","originalAmount":4.2,"timestamp":1741420092805,"status":"partially_filled","version":2}
+Validating order data: {"id":"3c86e0e1-672e-43bd-a948-4b6fc8d396ea","type":"sell","price":78.9,"amount":0,"clientId":"client1","originalAmount":9.25,"timestamp":1741420132814,"status":"filled","version":3}
+Validating order data: {"id":"3781acca-1471-4f62-a982-d2980459d6e0","type":"buy","price":90.38,"amount":0,"clientId":"client2","originalAmount":4.2,"timestamp":1741420092805,"status":"filled","version":2}
+Validating order data: {"id":"6ee0c2fb-7c6f-4230-a4cf-ff4344ad567d","type":"sell","price":77.64,"amount":0,"clientId":"client2","originalAmount":7.4,"timestamp":1741420157821,"status":"filled","version":3}
+Validating order data: {"id":"58c75a12-44c5-4cca-934a-cac5cb7dc8db","type":"buy","price":82.14,"amount":7.3500000000000005,"clientId":"client1","originalAmount":10.55,"timestamp":1741420117813,"status":"partially_filled","version":2}
+Validating order data: {"id":"6ee0c2fb-7c6f-4230-a4cf-ff4344ad567d","type":"sell","price":77.64,"amount":0,"clientId":"client2","originalAmount":7.4,"timestamp":1741420157821,"status":"filled","version":3}
+Validating order data: {"id":"58c75a12-44c5-4cca-934a-cac5cb7dc8db","type":"buy","price":82.14,"amount":10.55,"clientId":"client1","originalAmount":10.55,"timestamp":1741420117813,"status":"open","version":1}
+Validating order data: {"id":"fc2c583e-31b4-4f53-938a-9dd0a03d94b8","type":"buy","price":76.94,"amount":1.37,"clientId":"client2","originalAmount":1.37,"timestamp":1741420122810,"status":"open","version":1}
+Validating order data: {"id":"5f3a164b-8eb7-4ae3-b70f-3eac6800d0fc","type":"buy","price":71.46,"amount":7.1,"clientId":"client1","originalAmount":7.1,"timestamp":1741420227825,"status":"open","version":1}
+Validating order data: {"id":"a4544e3d-1f8f-4fd8-a381-5dbbb2d1aa76","type":"buy","price":71.01,"amount":8.54,"clientId":"client2","originalAmount":8.54,"timestamp":1741420187825,"status":"open","version":1}
+Validating order data: {"id":"d87a8eda-0d1b-44da-bd1e-21c9ba4742bd","type":"buy","price":68.32,"amount":4.03,"clientId":"client1","originalAmount":4.03,"timestamp":1741420167819,"status":"open","version":1}
+Validating order data: {"id":"e66ecce6-a597-4348-a4b1-b87fe2409c67","type":"buy","price":61.54,"amount":3.2,"clientId":"client2","originalAmount":3.2,"timestamp":1741420172824,"status":"open","version":1}
+Validating order data: {"id":"9208f599-686c-4737-a81d-f9875d2283e4","type":"buy","price":58.5,"amount":9.91,"clientId":"client2","originalAmount":9.91,"timestamp":1741420127810,"status":"open","version":1}
+Validating order data: {"id":"8c0edac7-e749-42b4-9b97-fd0cd0c2d7de","type":"buy","price":54.5,"amount":6.19,"clientId":"client1","originalAmount":6.19,"timestamp":1741420102811,"status":"open","version":1}
+Validating order data: {"id":"7384bc31-0132-45fa-9354-9edd3d69dec8","type":"buy","price":52.2,"amount":4.84,"clientId":"client2","originalAmount":4.84,"timestamp":1741420137810,"status":"open","version":1}
+Validating order data: {"id":"d9384ddf-4416-42a0-86da-0b9f2b59e932","type":"buy","price":52.03,"amount":6.05,"clientId":"client1","originalAmount":6.05,"timestamp":1741420182822,"status":"open","version":1}
+Validating order data: {"id":"38a686fb-5d48-4af7-980d-1f478bf92727","type":"sell","price":85.71,"amount":9.21,"clientId":"client1","originalAmount":9.21,"timestamp":1741420157815,"status":"open","version":1}
+Validating order data: {"id":"2439953a-697c-4bfe-8eb3-fd327adeb32a","type":"sell","price":89.38,"amount":3.34,"clientId":"client2","originalAmount":3.34,"timestamp":1741420182823,"status":"open","version":1}
+Validating order data: {"id":"3c1fc2f1-c15c-4b5a-9e91-e0914239d43a","type":"sell","price":89.64,"amount":4,"clientId":"client1","originalAmount":4,"timestamp":1741420197825,"status":"open","version":1}
+Validating order data: {"id":"2f434196-907f-4a21-825c-623621bfd089","type":"sell","price":92.3,"amount":9.81,"clientId":"client1","originalAmount":9.81,"timestamp":1741420067803,"status":"open","version":1}
+Validating order data: {"id":"8f4f8801-3192-40a8-890b-12c2a15dbdd8","type":"sell","price":93.63,"amount":6.93,"clientId":"client2","originalAmount":6.93,"timestamp":1741420222834,"status":"open","version":1}
+Validating order data: {"id":"5225b954-9492-48e0-8669-099449fed171","type":"sell","price":94.65,"amount":1.54,"clientId":"client2","originalAmount":1.54,"timestamp":1741420227836,"status":"open","version":1}
+Validating order data: {"id":"2b7e8dca-03a7-4279-ab88-12dbc990e0f6","type":"sell","price":97.3,"amount":6.32,"clientId":"client2","originalAmount":6.32,"timestamp":1741420192825,"status":"open","version":1}
+[2025-03-08T07:50:47.834Z] [INFO] Orderbook synced successfully {"buyOrders":10,"sellOrders":7,"matches":10}
+[2025-03-08T07:50:47.834Z] [INFO] Submitting new buy order: $83.13 x 8.14
+[2025-03-08T07:50:47.835Z] [INFO] Submitting new order: 8bb4afa0-84c9-4b12-a1a8-c34476935168 {"id":"8bb4afa0-84c9-4b12-a1a8-c34476935168","type":"buy","price":83.13,"amount":8.14}
+[2025-03-08T07:50:47.840Z] [INFO] Order added to the orderbook
+[2025-03-08T07:50:47.840Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:47.840Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 8bb4afa0, Price: $83.13, Amount: 8.14, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:47.840Z] [INFO]   Amount: 3.24, Price: $92.23, Buy: 01666009, Sell: 43f67de5
+[2025-03-08T07:50:47.841Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:47.841Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:47.841Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:47.841Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:47.841Z] [INFO] =========================
+
+Validating order data: {"id":"cbe46d58-1be1-4b37-887e-1c00d8028140","type":"buy","price":99.32,"amount":0,"clientId":"client2","originalAmount":1.49,"timestamp":1741420052795,"status":"filled","version":2}
+Validating order data: {"id":"ac036147-01c3-4392-b995-e66fbc073933","type":"sell","price":52.63,"amount":0,"clientId":"client1","originalAmount":3.38,"timestamp":1741420062799,"status":"filled","version":3}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":6.699999999999999,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"ac036147-01c3-4392-b995-e66fbc073933","type":"sell","price":52.63,"amount":0,"clientId":"client1","originalAmount":3.38,"timestamp":1741420062799,"status":"filled","version":3}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":4.219999999999999,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"7b16c6ab-284a-4f26-b4fd-9674715bb0e2","type":"sell","price":78.08,"amount":0,"clientId":"client2","originalAmount":9.98,"timestamp":1741420087806,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":5.16,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"0b392337-3026-474c-9e17-0f2796f1029d","type":"sell","price":62.05,"amount":0,"clientId":"client1","originalAmount":1.94,"timestamp":1741420092811,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":6.289999999999999,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"2f64301f-a088-45b0-860b-621bf955bfd1","type":"sell","price":56.63,"amount":0,"clientId":"client1","originalAmount":6.73,"timestamp":1741420097815,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":3.8599999999999994,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"43f67de5-b531-4468-9e0c-adafa074290e","type":"sell","price":91.34,"amount":0,"clientId":"client2","originalAmount":3.24,"timestamp":1741420117809,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":0,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"filled","version":2}
+Validating order data: {"id":"3c86e0e1-672e-43bd-a948-4b6fc8d396ea","type":"sell","price":78.9,"amount":0,"clientId":"client1","originalAmount":9.25,"timestamp":1741420132814,"status":"filled","version":3}
+Validating order data: {"id":"3781acca-1471-4f62-a982-d2980459d6e0","type":"buy","price":90.38,"amount":2.05,"clientId":"client2","originalAmount":4.2,"timestamp":1741420092805,"status":"partially_filled","version":2}
+Validating order data: {"id":"3c86e0e1-672e-43bd-a948-4b6fc8d396ea","type":"sell","price":78.9,"amount":0,"clientId":"client1","originalAmount":9.25,"timestamp":1741420132814,"status":"filled","version":3}
+Validating order data: {"id":"3781acca-1471-4f62-a982-d2980459d6e0","type":"buy","price":90.38,"amount":0,"clientId":"client2","originalAmount":4.2,"timestamp":1741420092805,"status":"filled","version":2}
+Validating order data: {"id":"6ee0c2fb-7c6f-4230-a4cf-ff4344ad567d","type":"sell","price":77.64,"amount":0,"clientId":"client2","originalAmount":7.4,"timestamp":1741420157821,"status":"filled","version":3}
+Validating order data: {"id":"58c75a12-44c5-4cca-934a-cac5cb7dc8db","type":"buy","price":82.14,"amount":7.3500000000000005,"clientId":"client1","originalAmount":10.55,"timestamp":1741420117813,"status":"partially_filled","version":2}
+Validating order data: {"id":"6ee0c2fb-7c6f-4230-a4cf-ff4344ad567d","type":"sell","price":77.64,"amount":0,"clientId":"client2","originalAmount":7.4,"timestamp":1741420157821,"status":"filled","version":3}
+Validating order data: {"id":"8bb4afa0-84c9-4b12-a1a8-c34476935168","type":"buy","price":83.13,"amount":8.14,"clientId":"client1","originalAmount":8.14,"timestamp":1741420247834,"status":"open","version":1}
+Validating order data: {"id":"58c75a12-44c5-4cca-934a-cac5cb7dc8db","type":"buy","price":82.14,"amount":10.55,"clientId":"client1","originalAmount":10.55,"timestamp":1741420117813,"status":"open","version":1}
+Validating order data: {"id":"fc2c583e-31b4-4f53-938a-9dd0a03d94b8","type":"buy","price":76.94,"amount":1.37,"clientId":"client2","originalAmount":1.37,"timestamp":1741420122810,"status":"open","version":1}
+Validating order data: {"id":"5f3a164b-8eb7-4ae3-b70f-3eac6800d0fc","type":"buy","price":71.46,"amount":7.1,"clientId":"client1","originalAmount":7.1,"timestamp":1741420227825,"status":"open","version":1}
+Validating order data: {"id":"a4544e3d-1f8f-4fd8-a381-5dbbb2d1aa76","type":"buy","price":71.01,"amount":8.54,"clientId":"client2","originalAmount":8.54,"timestamp":1741420187825,"status":"open","version":1}
+Validating order data: {"id":"d87a8eda-0d1b-44da-bd1e-21c9ba4742bd","type":"buy","price":68.32,"amount":4.03,"clientId":"client1","originalAmount":4.03,"timestamp":1741420167819,"status":"open","version":1}
+Validating order data: {"id":"d243fd5c-84b5-4ef1-abca-c737368f5472","type":"buy","price":67.61,"amount":3.21,"clientId":"client2","originalAmount":3.21,"timestamp":1741420247839,"status":"open","version":1}
+Validating order data: {"id":"e66ecce6-a597-4348-a4b1-b87fe2409c67","type":"buy","price":61.54,"amount":3.2,"clientId":"client2","originalAmount":3.2,"timestamp":1741420172824,"status":"open","version":1}
+Validating order data: {"id":"9208f599-686c-4737-a81d-f9875d2283e4","type":"buy","price":58.5,"amount":9.91,"clientId":"client2","originalAmount":9.91,"timestamp":1741420127810,"status":"open","version":1}
+Validating order data: {"id":"8c0edac7-e749-42b4-9b97-fd0cd0c2d7de","type":"buy","price":54.5,"amount":6.19,"clientId":"client1","originalAmount":6.19,"timestamp":1741420102811,"status":"open","version":1}
+Validating order data: {"id":"7384bc31-0132-45fa-9354-9edd3d69dec8","type":"buy","price":52.2,"amount":4.84,"clientId":"client2","originalAmount":4.84,"timestamp":1741420137810,"status":"open","version":1}
+Validating order data: {"id":"d9384ddf-4416-42a0-86da-0b9f2b59e932","type":"buy","price":52.03,"amount":6.05,"clientId":"client1","originalAmount":6.05,"timestamp":1741420182822,"status":"open","version":1}
+Validating order data: {"id":"38a686fb-5d48-4af7-980d-1f478bf92727","type":"sell","price":85.71,"amount":9.21,"clientId":"client1","originalAmount":9.21,"timestamp":1741420157815,"status":"open","version":1}
+Validating order data: {"id":"2439953a-697c-4bfe-8eb3-fd327adeb32a","type":"sell","price":89.38,"amount":3.34,"clientId":"client2","originalAmount":3.34,"timestamp":1741420182823,"status":"open","version":1}
+Validating order data: {"id":"3c1fc2f1-c15c-4b5a-9e91-e0914239d43a","type":"sell","price":89.64,"amount":4,"clientId":"client1","originalAmount":4,"timestamp":1741420197825,"status":"open","version":1}
+Validating order data: {"id":"2f434196-907f-4a21-825c-623621bfd089","type":"sell","price":92.3,"amount":9.81,"clientId":"client1","originalAmount":9.81,"timestamp":1741420067803,"status":"open","version":1}
+Validating order data: {"id":"8f4f8801-3192-40a8-890b-12c2a15dbdd8","type":"sell","price":93.63,"amount":6.93,"clientId":"client2","originalAmount":6.93,"timestamp":1741420222834,"status":"open","version":1}
+Validating order data: {"id":"5225b954-9492-48e0-8669-099449fed171","type":"sell","price":94.65,"amount":1.54,"clientId":"client2","originalAmount":1.54,"timestamp":1741420227836,"status":"open","version":1}
+Validating order data: {"id":"2b7e8dca-03a7-4279-ab88-12dbc990e0f6","type":"sell","price":97.3,"amount":6.32,"clientId":"client2","originalAmount":6.32,"timestamp":1741420192825,"status":"open","version":1}
+[2025-03-08T07:50:52.828Z] [INFO] Orderbook synced successfully {"buyOrders":12,"sellOrders":7,"matches":10}
+[2025-03-08T07:50:52.835Z] [INFO] Submitting new sell order: $57.42 x 2.73
+[2025-03-08T07:50:52.835Z] [INFO] Submitting new order: 5c3af6cb-d5eb-46b8-ab22-6cde6b320364 {"id":"5c3af6cb-d5eb-46b8-ab22-6cde6b320364","type":"sell","price":57.42,"amount":2.73}
+[2025-03-08T07:50:52.838Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T07:50:52.840Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:52.840Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:52.840Z] [INFO]   ID: 8bb4afa0, Price: $83.13, Amount: 8.14, Client: client1
+[2025-03-08T07:50:52.840Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:52.840Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:52.840Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:52.840Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:52.840Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:52.841Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:52.841Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:52.841Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:52.841Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:52.842Z] [INFO]   Amount: 2.73, Price: $83.13, Buy: 8bb4afa0, Sell: 5c3af6cb
+[2025-03-08T07:50:52.842Z] [INFO] =========================
+
+[2025-03-08T07:50:57.815Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:57.816Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 8bb4afa0, Price: $83.13, Amount: 8.14, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 2.73, Price: $83.13, Buy: 8bb4afa0, Sell: 5c3af6cb
+[2025-03-08T07:50:57.816Z] [INFO] =========================
+
+Validating order data: {"id":"cbe46d58-1be1-4b37-887e-1c00d8028140","type":"buy","price":99.32,"amount":0,"clientId":"client2","originalAmount":1.49,"timestamp":1741420052795,"status":"filled","version":2}
+Validating order data: {"id":"ac036147-01c3-4392-b995-e66fbc073933","type":"sell","price":52.63,"amount":0,"clientId":"client1","originalAmount":3.38,"timestamp":1741420062799,"status":"filled","version":3}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":6.699999999999999,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"ac036147-01c3-4392-b995-e66fbc073933","type":"sell","price":52.63,"amount":0,"clientId":"client1","originalAmount":3.38,"timestamp":1741420062799,"status":"filled","version":3}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":4.219999999999999,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"7b16c6ab-284a-4f26-b4fd-9674715bb0e2","type":"sell","price":78.08,"amount":0,"clientId":"client2","originalAmount":9.98,"timestamp":1741420087806,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":5.16,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"0b392337-3026-474c-9e17-0f2796f1029d","type":"sell","price":62.05,"amount":0,"clientId":"client1","originalAmount":1.94,"timestamp":1741420092811,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":6.289999999999999,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"2f64301f-a088-45b0-860b-621bf955bfd1","type":"sell","price":56.63,"amount":0,"clientId":"client1","originalAmount":6.73,"timestamp":1741420097815,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":3.8599999999999994,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"partially_filled","version":2}
+Validating order data: {"id":"43f67de5-b531-4468-9e0c-adafa074290e","type":"sell","price":91.34,"amount":0,"clientId":"client2","originalAmount":3.24,"timestamp":1741420117809,"status":"filled","version":2}
+Validating order data: {"id":"01666009-39ae-49f6-8886-32471476bfe1","type":"buy","price":92.23,"amount":0,"clientId":"client1","originalAmount":7.1,"timestamp":1741420057795,"status":"filled","version":2}
+Validating order data: {"id":"3c86e0e1-672e-43bd-a948-4b6fc8d396ea","type":"sell","price":78.9,"amount":0,"clientId":"client1","originalAmount":9.25,"timestamp":1741420132814,"status":"filled","version":3}
+Validating order data: {"id":"3781acca-1471-4f62-a982-d2980459d6e0","type":"buy","price":90.38,"amount":2.05,"clientId":"client2","originalAmount":4.2,"timestamp":1741420092805,"status":"partially_filled","version":2}
+Validating order data: {"id":"3c86e0e1-672e-43bd-a948-4b6fc8d396ea","type":"sell","price":78.9,"amount":0,"clientId":"client1","originalAmount":9.25,"timestamp":1741420132814,"status":"filled","version":3}
+Validating order data: {"id":"3781acca-1471-4f62-a982-d2980459d6e0","type":"buy","price":90.38,"amount":0,"clientId":"client2","originalAmount":4.2,"timestamp":1741420092805,"status":"filled","version":2}
+Validating order data: {"id":"6ee0c2fb-7c6f-4230-a4cf-ff4344ad567d","type":"sell","price":77.64,"amount":0,"clientId":"client2","originalAmount":7.4,"timestamp":1741420157821,"status":"filled","version":3}
+Validating order data: {"id":"58c75a12-44c5-4cca-934a-cac5cb7dc8db","type":"buy","price":82.14,"amount":7.3500000000000005,"clientId":"client1","originalAmount":10.55,"timestamp":1741420117813,"status":"partially_filled","version":2}
+Validating order data: {"id":"6ee0c2fb-7c6f-4230-a4cf-ff4344ad567d","type":"sell","price":77.64,"amount":0,"clientId":"client2","originalAmount":7.4,"timestamp":1741420157821,"status":"filled","version":3}
+Validating order data: {"id":"8bb4afa0-84c9-4b12-a1a8-c34476935168","type":"buy","price":83.13,"amount":8.14,"clientId":"client1","originalAmount":8.14,"timestamp":1741420247834,"status":"open","version":1}
+Validating order data: {"id":"58c75a12-44c5-4cca-934a-cac5cb7dc8db","type":"buy","price":82.14,"amount":10.55,"clientId":"client1","originalAmount":10.55,"timestamp":1741420117813,"status":"open","version":1}
+Validating order data: {"id":"fc2c583e-31b4-4f53-938a-9dd0a03d94b8","type":"buy","price":76.94,"amount":1.37,"clientId":"client2","originalAmount":1.37,"timestamp":1741420122810,"status":"open","version":1}
+Validating order data: {"id":"5f3a164b-8eb7-4ae3-b70f-3eac6800d0fc","type":"buy","price":71.46,"amount":7.1,"clientId":"client1","originalAmount":7.1,"timestamp":1741420227825,"status":"open","version":1}
+Validating order data: {"id":"a4544e3d-1f8f-4fd8-a381-5dbbb2d1aa76","type":"buy","price":71.01,"amount":8.54,"clientId":"client2","originalAmount":8.54,"timestamp":1741420187825,"status":"open","version":1}
+Validating order data: {"id":"d87a8eda-0d1b-44da-bd1e-21c9ba4742bd","type":"buy","price":68.32,"amount":4.03,"clientId":"client1","originalAmount":4.03,"timestamp":1741420167819,"status":"open","version":1}
+Validating order data: {"id":"d243fd5c-84b5-4ef1-abca-c737368f5472","type":"buy","price":67.61,"amount":3.21,"clientId":"client2","originalAmount":3.21,"timestamp":1741420247839,"status":"open","version":1}
+Validating order data: {"id":"e66ecce6-a597-4348-a4b1-b87fe2409c67","type":"buy","price":61.54,"amount":3.2,"clientId":"client2","originalAmount":3.2,"timestamp":1741420172824,"status":"open","version":1}
+Validating order data: {"id":"9208f599-686c-4737-a81d-f9875d2283e4","type":"buy","price":58.5,"amount":9.91,"clientId":"client2","originalAmount":9.91,"timestamp":1741420127810,"status":"open","version":1}
+Validating order data: {"id":"8c0edac7-e749-42b4-9b97-fd0cd0c2d7de","type":"buy","price":54.5,"amount":6.19,"clientId":"client1","originalAmount":6.19,"timestamp":1741420102811,"status":"open","version":1}
+Validating order data: {"id":"7384bc31-0132-45fa-9354-9edd3d69dec8","type":"buy","price":52.2,"amount":4.84,"clientId":"client2","originalAmount":4.84,"timestamp":1741420137810,"status":"open","version":1}
+Validating order data: {"id":"d9384ddf-4416-42a0-86da-0b9f2b59e932","type":"buy","price":52.03,"amount":6.05,"clientId":"client1","originalAmount":6.05,"timestamp":1741420182822,"status":"open","version":1}
+Validating order data: {"id":"38a686fb-5d48-4af7-980d-1f478bf92727","type":"sell","price":85.71,"amount":9.21,"clientId":"client1","originalAmount":9.21,"timestamp":1741420157815,"status":"open","version":1}
+Validating order data: {"id":"2439953a-697c-4bfe-8eb3-fd327adeb32a","type":"sell","price":89.38,"amount":3.34,"clientId":"client2","originalAmount":3.34,"timestamp":1741420182823,"status":"open","version":1}
+Validating order data: {"id":"3c1fc2f1-c15c-4b5a-9e91-e0914239d43a","type":"sell","price":89.64,"amount":4,"clientId":"client1","originalAmount":4,"timestamp":1741420197825,"status":"open","version":1}
+Validating order data: {"id":"2f434196-907f-4a21-825c-623621bfd089","type":"sell","price":92.3,"amount":9.81,"clientId":"client1","originalAmount":9.81,"timestamp":1741420067803,"status":"open","version":1}
+Validating order data: {"id":"8f4f8801-3192-40a8-890b-12c2a15dbdd8","type":"sell","price":93.63,"amount":6.93,"clientId":"client2","originalAmount":6.93,"timestamp":1741420222834,"status":"open","version":1}
+Validating order data: {"id":"5225b954-9492-48e0-8669-099449fed171","type":"sell","price":94.65,"amount":1.54,"clientId":"client2","originalAmount":1.54,"timestamp":1741420227836,"status":"open","version":1}
+Validating order data: {"id":"2b7e8dca-03a7-4279-ab88-12dbc990e0f6","type":"sell","price":97.3,"amount":6.32,"clientId":"client2","originalAmount":6.32,"timestamp":1741420192825,"status":"open","version":1}
+[2025-03-08T07:50:57.825Z] [INFO] Orderbook synced successfully {"buyOrders":12,"sellOrders":7,"matches":10}
+[2025-03-08T07:50:57.836Z] [INFO] Submitting new sell order: $76.26 x 8.37
+[2025-03-08T07:50:57.836Z] [INFO] Submitting new order: 6346fbff-a608-4ff6-969a-c5a1fd070e3a {"id":"6346fbff-a608-4ff6-969a-c5a1fd070e3a","type":"sell","price":76.26,"amount":8.37}
+[2025-03-08T07:50:57.842Z] [INFO] Order matched with 2 existing orders!
+[2025-03-08T07:50:57.842Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:57.842Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 8.14, Price: $83.13, Buy: 8bb4afa0, Sell: 6346fbff
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 0.23, Price: $82.14, Buy: 58c75a12, Sell: 6346fbff
+[2025-03-08T07:50:57.842Z] [INFO] =========================
+
+Validating order data: {"id":"bbcdabf5-e5e8-4c82-9c8c-e2b5b1bf2fbb","type":"buy","price":85.64,"amount":0,"clientId":"client2","originalAmount":7.25,"timestamp":1741420082804,"status":"filled","version":2}
+Validating order data: {"id":"2dc96cf2-b846-4af1-a5b9-ed6716fc97fc","type":"sell","price":79.69,"amount":1.0899999999999999,"clientId":"client1","originalAmount":8.34,"timestamp":1741420052796,"status":"partially_filled","version":2}
+Validating order data: {"id":"b96f2789-45c8-4ed1-855b-a2012a672dfd","type":"buy","price":75.32,"amount":10.29,"clientId":"client2","originalAmount":10.29,"timestamp":1741420097808,"status":"open","version":1}
+Validating order data: {"id":"27416d71-ee46-411c-9d9a-0943a9d30e75","type":"buy","price":71.27,"amount":8.1,"clientId":"client1","originalAmount":8.1,"timestamp":1741420142815,"status":"open","version":1}
+Validating order data: {"id":"c079b2d9-b3d1-49f2-83f6-4632d890a3f5","type":"buy","price":70.42,"amount":7.22,"clientId":"client1","originalAmount":7.22,"timestamp":1741420187823,"status":"open","version":1}
+Validating order data: {"id":"738b592b-0cfb-44f4-a0b0-d9fea730a536","type":"buy","price":68.61,"amount":4.39,"clientId":"client2","originalAmount":4.39,"timestamp":1741420147812,"status":"open","version":1}
+Validating order data: {"id":"c5622fed-4e23-45d4-a14a-9f1432249f67","type":"buy","price":68.01,"amount":2.34,"clientId":"client1","originalAmount":2.34,"timestamp":1741420127814,"status":"open","version":1}
+Validating order data: {"id":"1b1dabcb-ae86-4c1d-9801-84fac6f523b7","type":"buy","price":67.68,"amount":3.73,"clientId":"client2","originalAmount":3.73,"timestamp":1741420232836,"status":"open","version":1}
+Validating order data: {"id":"0f3a5319-3647-4730-bb86-a953720db8e8","type":"buy","price":64.36,"amount":8.87,"clientId":"client1","originalAmount":8.87,"timestamp":1741420217825,"status":"open","version":1}
+Validating order data: {"id":"297846ae-66fe-4db8-891f-6c561acadd52","type":"buy","price":62.09,"amount":5.92,"clientId":"client2","originalAmount":5.92,"timestamp":1741420057795,"status":"open","version":1}
+Validating order data: {"id":"dc0997d2-a159-4458-8dca-4a16f64c6720","type":"buy","price":58.95,"amount":2.24,"clientId":"client1","originalAmount":2.24,"timestamp":1741420107813,"status":"open","version":1}
+Validating order data: {"id":"fba751ee-ea69-4849-9e30-476c148e0271","type":"buy","price":54.93,"amount":2.34,"clientId":"client2","originalAmount":2.34,"timestamp":1741420067799,"status":"open","version":1}
+Validating order data: {"id":"3d50aa38-185a-42a1-a6f8-c299909fa53f","type":"sell","price":76.08,"amount":2.76,"clientId":"client1","originalAmount":2.76,"timestamp":1741420192825,"status":"open","version":1}
+Validating order data: {"id":"4170282a-d792-4110-83a6-b350e7701ae3","type":"sell","price":77.33,"amount":3.08,"clientId":"client1","originalAmount":3.08,"timestamp":1741420222825,"status":"open","version":1}
+Validating order data: {"id":"642daeaf-eac1-470b-91c9-6274c70de3c1","type":"sell","price":77.63,"amount":2.94,"clientId":"client1","originalAmount":2.94,"timestamp":1741420237828,"status":"open","version":1}
+Validating order data: {"id":"2dc96cf2-b846-4af1-a5b9-ed6716fc97fc","type":"sell","price":79.69,"amount":8.34,"clientId":"client1","originalAmount":8.34,"timestamp":1741420052796,"status":"open","version":1}
+Validating order data: {"id":"573a157f-8ef8-49da-8673-9dd19251cc12","type":"sell","price":82.19,"amount":5.63,"clientId":"client2","originalAmount":5.63,"timestamp":1741420062798,"status":"open","version":1}
+Validating order data: {"id":"f8bca904-30e4-4516-9053-12b6f4f07bc1","type":"sell","price":86.92,"amount":2.9299999999999997,"clientId":"client1","originalAmount":10.03,"timestamp":1741420087810,"status":"partially_filled","version":1}
+Validating order data: {"id":"926bd00a-a27c-4a2c-bbee-653d179368e1","type":"sell","price":96.14,"amount":5.98,"clientId":"client2","originalAmount":5.98,"timestamp":1741420197826,"status":"open","version":1}
+Validating order data: {"id":"b3c84348-3606-4463-bb25-2a178fc453d3","type":"sell","price":97.77,"amount":4.7,"clientId":"client1","originalAmount":4.7,"timestamp":1741420137815,"status":"open","version":1}
+Validating order data: {"id":"e7e20b20-5d25-4eaa-bebd-58ae0a3ab0ac","type":"sell","price":98.65,"amount":9.46,"clientId":"client1","originalAmount":9.46,"timestamp":1741420212825,"status":"open","version":1}
+Validating order data: {"id":"4b9532e4-3996-487a-958a-7de81c9c6021","type":"sell","price":99.59,"amount":7.97,"clientId":"client1","originalAmount":7.97,"timestamp":1741420152817,"status":"open","version":1}
+[2025-03-08T07:51:02.829Z] [INFO] Orderbook synced successfully {"buyOrders":10,"sellOrders":10,"matches":1}
+[2025-03-08T07:51:02.837Z] [INFO] Submitting new buy order: $82.86 x 8.78
+[2025-03-08T07:51:02.837Z] [INFO] Submitting new order: 820df9cb-e513-4074-9045-563f92f00d2a {"id":"820df9cb-e513-4074-9045-563f92f00d2a","type":"buy","price":82.86,"amount":8.78}
+[2025-03-08T07:51:02.843Z] [INFO] Order matched with 3 existing orders!
+[2025-03-08T07:51:02.843Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:51:02.843Z] [INFO] BUY ORDERS:
+[2025-03-08T07:51:02.843Z] [INFO]   ID: b96f2789, Price: $75.32, Amount: 10.29, Client: client2
+[2025-03-08T07:51:02.843Z] [INFO]   ID: 27416d71, Price: $71.27, Amount: 8.10, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: c079b2d9, Price: $70.42, Amount: 7.22, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 738b592b, Price: $68.61, Amount: 4.39, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: c5622fed, Price: $68.01, Amount: 2.34, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 1b1dabcb, Price: $67.68, Amount: 3.73, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 0f3a5319, Price: $64.36, Amount: 8.87, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 297846ae, Price: $62.09, Amount: 5.92, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: dc0997d2, Price: $58.95, Amount: 2.24, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: fba751ee, Price: $54.93, Amount: 2.34, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 642daeaf, Price: $77.63, Amount: 2.94, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 2dc96cf2, Price: $79.69, Amount: 8.34, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 573a157f, Price: $82.19, Amount: 5.63, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: f8bca904, Price: $86.92, Amount: 2.93, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 926bd00a, Price: $96.14, Amount: 5.98, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: b3c84348, Price: $97.77, Amount: 4.70, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: e7e20b20, Price: $98.65, Amount: 9.46, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 4b9532e4, Price: $99.59, Amount: 7.97, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:51:02.844Z] [INFO]   Amount: 7.25, Price: $79.69, Buy: bbcdabf5, Sell: 2dc96cf2
+[2025-03-08T07:51:02.845Z] [INFO]   Amount: 2.76, Price: $76.08, Buy: 820df9cb, Sell: 3d50aa38
+[2025-03-08T07:51:02.845Z] [INFO]   Amount: 3.08, Price: $77.33, Buy: 820df9cb, Sell: 4170282a
+[2025-03-08T07:51:02.845Z] [INFO]   Amount: 2.94, Price: $77.63, Buy: 820df9cb, Sell: 642daeaf
+[2025-03-08T07:51:02.845Z] [INFO] =========================
+

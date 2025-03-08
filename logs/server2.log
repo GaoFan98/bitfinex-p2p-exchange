@@ -213,3 +213,25 @@ Validating order data: {"id":"5225b954-9492-48e0-8669-099449fed171","type":"sell
 [2025-03-08T07:50:37.794Z] [INFO] Total Matches: 10
 [2025-03-08T07:50:37.794Z] [INFO] ============================
 
+Validating order data: {"id":"6062ec7b-1235-4208-9d66-4dd8fc9ab3d9","type":"sell","price":71.94,"amount":0,"clientId":"client2","originalAmount":4.4,"timestamp":1741420242840,"status":"filled","version":2}
+[2025-03-08T07:50:47.794Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:47.794Z] [INFO] Buy Orders: 10
+[2025-03-08T07:50:47.794Z] [INFO] Sell Orders: 7
+[2025-03-08T07:50:47.794Z] [INFO] Total Matches: 10
+[2025-03-08T07:50:47.794Z] [INFO] ============================
+
+Validating order data: {"id":"8bb4afa0-84c9-4b12-a1a8-c34476935168","type":"buy","price":83.13,"amount":8.14,"clientId":"client1","originalAmount":8.14,"timestamp":1741420247834,"status":"open","version":1}
+[2025-03-08T07:50:47.839Z] [INFO] Order 8bb4afa0-84c9-4b12-a1a8-c34476935168 processed from client client1 {"orderId":"8bb4afa0-84c9-4b12-a1a8-c34476935168","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"d243fd5c-84b5-4ef1-abca-c737368f5472","type":"buy","price":67.61,"amount":3.21,"clientId":"client2","originalAmount":3.21,"timestamp":1741420247839,"status":"open","version":1}
+[2025-03-08T07:50:47.841Z] [INFO] Order d243fd5c-84b5-4ef1-abca-c737368f5472 processed from client client2 {"orderId":"d243fd5c-84b5-4ef1-abca-c737368f5472","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+Validating order data: {"id":"5c3af6cb-d5eb-46b8-ab22-6cde6b320364","type":"sell","price":57.42,"amount":0,"clientId":"client1","originalAmount":2.73,"timestamp":1741420252835,"status":"filled","version":2}
+Validating order data: {"id":"0c942bb7-5e58-4527-85a6-b5353d570c91","type":"sell","price":74.3,"amount":0,"clientId":"client2","originalAmount":7.94,"timestamp":1741420252841,"status":"filled","version":2}
+[2025-03-08T07:50:57.796Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:57.797Z] [INFO] Buy Orders: 12
+[2025-03-08T07:50:57.797Z] [INFO] Sell Orders: 7
+[2025-03-08T07:50:57.797Z] [INFO] Total Matches: 10
+[2025-03-08T07:50:57.797Z] [INFO] ============================
+
+Validating order data: {"id":"6346fbff-a608-4ff6-969a-c5a1fd070e3a","type":"sell","price":76.26,"amount":0,"clientId":"client1","originalAmount":8.37,"timestamp":1741420257836,"status":"filled","version":3}

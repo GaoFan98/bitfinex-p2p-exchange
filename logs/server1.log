@@ -207,3 +207,22 @@ Validating order data: {"id":"1b1dabcb-ae86-4c1d-9801-84fac6f523b7","type":"buy"
 Validating order data: {"id":"642daeaf-eac1-470b-91c9-6274c70de3c1","type":"sell","price":77.63,"amount":2.94,"clientId":"client1","originalAmount":2.94,"timestamp":1741420237828,"status":"open","version":1}
 [2025-03-08T07:50:37.830Z] [INFO] Order 642daeaf-eac1-470b-91c9-6274c70de3c1 processed from client client1 {"orderId":"642daeaf-eac1-470b-91c9-6274c70de3c1","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
 Validating order data: {"id":"7bbc335a-0c25-458c-b1b2-77e3dbf1c97b","type":"sell","price":62.86,"amount":0,"clientId":"client2","originalAmount":6.56,"timestamp":1741420237835,"status":"filled","version":2}
+Validating order data: {"id":"c4399bf1-17bc-4cf6-b3a5-75af1b7a11e9","type":"sell","price":51.13,"amount":0,"clientId":"client1","originalAmount":2.59,"timestamp":1741420242831,"status":"filled","version":2}
+[2025-03-08T07:50:47.792Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:47.792Z] [INFO] Buy Orders: 10
+[2025-03-08T07:50:47.792Z] [INFO] Sell Orders: 10
+[2025-03-08T07:50:47.792Z] [INFO] Total Matches: 1
+[2025-03-08T07:50:47.792Z] [INFO] ============================
+
+[2025-03-08T07:50:57.792Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:57.792Z] [INFO] Buy Orders: 10
+[2025-03-08T07:50:57.792Z] [INFO] Sell Orders: 10
+[2025-03-08T07:50:57.793Z] [INFO] Total Matches: 1
+[2025-03-08T07:50:57.793Z] [INFO] ============================
+
+Validating order data: {"id":"de2ab3f7-2c4b-402e-a5b9-886619f5f45e","type":"buy","price":87.03,"amount":0,"clientId":"client2","originalAmount":5.3,"timestamp":1741420257842,"status":"filled","version":3}
+Validating order data: {"id":"820df9cb-e513-4074-9045-563f92f00d2a","type":"buy","price":82.86,"amount":0,"clientId":"client1","originalAmount":8.78,"timestamp":1741420262837,"status":"filled","version":4}
+Validating order data: {"id":"2e5c012d-2b6f-4d84-b370-e7b86cb04d58","type":"buy","price":68.43,"amount":9.46,"clientId":"client2","originalAmount":9.46,"timestamp":1741420262844,"status":"open","version":1}
+[2025-03-08T07:51:02.848Z] [INFO] Order 2e5c012d-2b6f-4d84-b370-e7b86cb04d58 processed from client client2 {"orderId":"2e5c012d-2b6f-4d84-b370-e7b86cb04d58","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}

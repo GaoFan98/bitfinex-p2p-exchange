@@ -2992,3 +2992,521 @@ RECENT MATCHES:
 [2025-03-08T07:50:37.847Z] [INFO]   Amount: 7.25, Price: $79.69, Buy: bbcdabf5, Sell: 2dc96cf2
 [2025-03-08T07:50:37.847Z] [INFO] =========================
 
+[2025-03-08T07:50:42.831Z] [INFO] Orderbook synced successfully {"buyOrders":10,"sellOrders":10,"matches":1}
+[2025-03-08T07:50:42.831Z] [INFO] Submitting new sell order: $51.13 x 2.59
+[2025-03-08T07:50:42.832Z] [INFO] Submitting new order: c4399bf1-17bc-4cf6-b3a5-75af1b7a11e9 {"id":"c4399bf1-17bc-4cf6-b3a5-75af1b7a11e9","type":"sell","price":51.13,"amount":2.59}
+[2025-03-08T07:50:42.834Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T07:50:42.834Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:42.834Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:42.834Z] [INFO]   ID: b96f2789, Price: $75.32, Amount: 10.29, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 27416d71, Price: $71.27, Amount: 8.10, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: c079b2d9, Price: $70.42, Amount: 7.22, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 738b592b, Price: $68.61, Amount: 4.39, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: c5622fed, Price: $68.01, Amount: 2.34, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 1b1dabcb, Price: $67.68, Amount: 3.73, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 0f3a5319, Price: $64.36, Amount: 8.87, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 297846ae, Price: $62.09, Amount: 5.92, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: dc0997d2, Price: $58.95, Amount: 2.24, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: fba751ee, Price: $54.93, Amount: 2.34, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 3d50aa38, Price: $76.08, Amount: 2.76, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 4170282a, Price: $77.33, Amount: 3.08, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 642daeaf, Price: $77.63, Amount: 2.94, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 2dc96cf2, Price: $79.69, Amount: 8.34, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 573a157f, Price: $82.19, Amount: 5.63, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: f8bca904, Price: $86.92, Amount: 2.93, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 926bd00a, Price: $96.14, Amount: 5.98, Client: client2
+[2025-03-08T07:50:42.834Z] [INFO]   ID: b3c84348, Price: $97.77, Amount: 4.70, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: e7e20b20, Price: $98.65, Amount: 9.46, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO]   ID: 4b9532e4, Price: $99.59, Amount: 7.97, Client: client1
+[2025-03-08T07:50:42.834Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:42.834Z] [INFO]   Amount: 7.25, Price: $79.69, Buy: bbcdabf5, Sell: 2dc96cf2
+[2025-03-08T07:50:42.834Z] [INFO]   Amount: 2.59, Price: $75.32, Buy: b96f2789, Sell: c4399bf1
+[2025-03-08T07:50:42.835Z] [INFO] =========================
+
+[2025-03-08T07:50:42.840Z] [INFO] Submitting new sell order: $71.94 x 4.40
+[2025-03-08T07:50:42.841Z] [INFO] Submitting new order: 6062ec7b-1235-4208-9d66-4dd8fc9ab3d9 {"id":"6062ec7b-1235-4208-9d66-4dd8fc9ab3d9","type":"sell","price":71.94,"amount":4.4}
+[2025-03-08T07:50:42.847Z] [INFO] Orderbook synced successfully {"buyOrders":10,"sellOrders":7,"matches":10}
+[2025-03-08T07:50:42.847Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T07:50:42.847Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:42.847Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:42.847Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:42.847Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:42.847Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:42.847Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:42.847Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:42.847Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:42.847Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:42.847Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:42.847Z] [INFO]   Amount: 3.24, Price: $92.23, Buy: 01666009, Sell: 43f67de5
+[2025-03-08T07:50:42.847Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:42.847Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:42.847Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:42.847Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:42.847Z] [INFO] =========================
+
+[2025-03-08T07:50:47.792Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:47.792Z] [INFO] Buy Orders: 10
+[2025-03-08T07:50:47.792Z] [INFO] Sell Orders: 10
+[2025-03-08T07:50:47.792Z] [INFO] Total Matches: 1
+[2025-03-08T07:50:47.792Z] [INFO] ============================
+
+[2025-03-08T07:50:47.794Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:47.794Z] [INFO] Buy Orders: 10
+[2025-03-08T07:50:47.794Z] [INFO] Sell Orders: 7
+[2025-03-08T07:50:47.794Z] [INFO] Total Matches: 10
+[2025-03-08T07:50:47.794Z] [INFO] ============================
+
+[2025-03-08T07:50:47.805Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:47.805Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:47.805Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:47.805Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:47.805Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:47.805Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:47.806Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:47.806Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:47.806Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:47.806Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:47.806Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:47.806Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:47.806Z] [INFO]   Amount: 3.24, Price: $92.23, Buy: 01666009, Sell: 43f67de5
+[2025-03-08T07:50:47.806Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:47.806Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:47.807Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:47.807Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:47.807Z] [INFO] =========================
+
+[2025-03-08T07:50:47.815Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:47.816Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:47.816Z] [INFO]   ID: b96f2789, Price: $75.32, Amount: 10.29, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 27416d71, Price: $71.27, Amount: 8.10, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: c079b2d9, Price: $70.42, Amount: 7.22, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 738b592b, Price: $68.61, Amount: 4.39, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO]   ID: c5622fed, Price: $68.01, Amount: 2.34, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 1b1dabcb, Price: $67.68, Amount: 3.73, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 0f3a5319, Price: $64.36, Amount: 8.87, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 297846ae, Price: $62.09, Amount: 5.92, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO]   ID: dc0997d2, Price: $58.95, Amount: 2.24, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: fba751ee, Price: $54.93, Amount: 2.34, Client: client2
+[2025-03-08T07:50:47.816Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 3d50aa38, Price: $76.08, Amount: 2.76, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 4170282a, Price: $77.33, Amount: 3.08, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 642daeaf, Price: $77.63, Amount: 2.94, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 2dc96cf2, Price: $79.69, Amount: 8.34, Client: client1
+[2025-03-08T07:50:47.816Z] [INFO]   ID: 573a157f, Price: $82.19, Amount: 5.63, Client: client2
+[2025-03-08T07:50:47.817Z] [INFO]   ID: f8bca904, Price: $86.92, Amount: 2.93, Client: client1
+[2025-03-08T07:50:47.817Z] [INFO]   ID: 926bd00a, Price: $96.14, Amount: 5.98, Client: client2
+[2025-03-08T07:50:47.817Z] [INFO]   ID: b3c84348, Price: $97.77, Amount: 4.70, Client: client1
+[2025-03-08T07:50:47.817Z] [INFO]   ID: e7e20b20, Price: $98.65, Amount: 9.46, Client: client1
+[2025-03-08T07:50:47.817Z] [INFO]   ID: 4b9532e4, Price: $99.59, Amount: 7.97, Client: client1
+[2025-03-08T07:50:47.817Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:47.817Z] [INFO]   Amount: 7.25, Price: $79.69, Buy: bbcdabf5, Sell: 2dc96cf2
+[2025-03-08T07:50:47.817Z] [INFO]   Amount: 2.59, Price: $75.32, Buy: b96f2789, Sell: c4399bf1
+[2025-03-08T07:50:47.817Z] [INFO] =========================
+
+[2025-03-08T07:50:47.834Z] [INFO] Orderbook synced successfully {"buyOrders":10,"sellOrders":7,"matches":10}
+[2025-03-08T07:50:47.834Z] [INFO] Submitting new buy order: $83.13 x 8.14
+[2025-03-08T07:50:47.835Z] [INFO] Submitting new order: 8bb4afa0-84c9-4b12-a1a8-c34476935168 {"id":"8bb4afa0-84c9-4b12-a1a8-c34476935168","type":"buy","price":83.13,"amount":8.14}
+[2025-03-08T07:50:47.839Z] [INFO] Order 8bb4afa0-84c9-4b12-a1a8-c34476935168 processed from client client1 {"orderId":"8bb4afa0-84c9-4b12-a1a8-c34476935168","clientId":"client1","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:50:47.839Z] [INFO] Submitting new buy order: $67.61 x 3.21
+[2025-03-08T07:50:47.840Z] [INFO] Order added to the orderbook
+[2025-03-08T07:50:47.840Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:47.840Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 8bb4afa0, Price: $83.13, Amount: 8.14, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:47.840Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:47.840Z] [INFO]   Amount: 3.24, Price: $92.23, Buy: 01666009, Sell: 43f67de5
+[2025-03-08T07:50:47.841Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:47.841Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:47.841Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:47.841Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:47.841Z] [INFO] =========================
+
+[2025-03-08T07:50:47.841Z] [INFO] Order d243fd5c-84b5-4ef1-abca-c737368f5472 processed from client client2 {"orderId":"d243fd5c-84b5-4ef1-abca-c737368f5472","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:50:47.839Z] [INFO] Submitting new order: d243fd5c-84b5-4ef1-abca-c737368f5472 {"id":"d243fd5c-84b5-4ef1-abca-c737368f5472","type":"buy","price":67.61,"amount":3.21}
+[2025-03-08T07:50:47.842Z] [INFO] Order added to the orderbook
+[2025-03-08T07:50:47.842Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:47.842Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:47.842Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:47.842Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:47.843Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:47.843Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:47.843Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:47.843Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:47.843Z] [INFO]   Amount: 3.24, Price: $92.23, Buy: 01666009, Sell: 43f67de5
+[2025-03-08T07:50:47.843Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:47.843Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:47.843Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:47.843Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:47.843Z] [INFO] =========================
+
+[2025-03-08T07:50:47.844Z] [INFO] Orderbook synced successfully {"buyOrders":10,"sellOrders":10,"matches":1}
+[2025-03-08T07:50:52.828Z] [INFO] Orderbook synced successfully {"buyOrders":12,"sellOrders":7,"matches":10}
+[2025-03-08T07:50:52.835Z] [INFO] Submitting new sell order: $57.42 x 2.73
+[2025-03-08T07:50:52.835Z] [INFO] Submitting new order: 5c3af6cb-d5eb-46b8-ab22-6cde6b320364 {"id":"5c3af6cb-d5eb-46b8-ab22-6cde6b320364","type":"sell","price":57.42,"amount":2.73}
+[2025-03-08T07:50:52.838Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T07:50:52.841Z] [INFO] Submitting new sell order: $74.30 x 7.94
+[2025-03-08T07:50:52.840Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:52.840Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:52.840Z] [INFO]   ID: 8bb4afa0, Price: $83.13, Amount: 8.14, Client: client1
+[2025-03-08T07:50:52.840Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:52.840Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:52.840Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:52.840Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:52.840Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:52.841Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:52.841Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:52.841Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:52.841Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:52.841Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:52.842Z] [INFO]   Amount: 2.73, Price: $83.13, Buy: 8bb4afa0, Sell: 5c3af6cb
+[2025-03-08T07:50:52.842Z] [INFO] =========================
+
+[2025-03-08T07:50:52.842Z] [INFO] Submitting new order: 0c942bb7-5e58-4527-85a6-b5353d570c91 {"id":"0c942bb7-5e58-4527-85a6-b5353d570c91","type":"sell","price":74.3,"amount":7.94}
+[2025-03-08T07:50:52.851Z] [INFO] Orderbook synced successfully {"buyOrders":12,"sellOrders":7,"matches":10}
+[2025-03-08T07:50:52.852Z] [INFO] Order matched with 1 existing orders!
+[2025-03-08T07:50:52.852Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:52.852Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 8bb4afa0, Price: $83.13, Amount: 8.14, Client: client1
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:52.852Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:52.852Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:52.852Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:52.852Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:52.852Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:52.853Z] [INFO]   Amount: 3.24, Price: $92.23, Buy: 01666009, Sell: 43f67de5
+[2025-03-08T07:50:52.853Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:52.853Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:52.853Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:52.853Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:52.853Z] [INFO] =========================
+
+[2025-03-08T07:50:57.792Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:57.792Z] [INFO] Buy Orders: 10
+[2025-03-08T07:50:57.792Z] [INFO] Sell Orders: 10
+[2025-03-08T07:50:57.793Z] [INFO] Total Matches: 1
+[2025-03-08T07:50:57.793Z] [INFO] ============================
+
+[2025-03-08T07:50:57.796Z] [INFO] 
+==== ORDERBOOK SUMMARY ====
+[2025-03-08T07:50:57.797Z] [INFO] Buy Orders: 12
+[2025-03-08T07:50:57.797Z] [INFO] Sell Orders: 7
+[2025-03-08T07:50:57.797Z] [INFO] Total Matches: 10
+[2025-03-08T07:50:57.797Z] [INFO] ============================
+
+[2025-03-08T07:50:57.806Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:57.806Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:57.806Z] [INFO]   ID: 8bb4afa0, Price: $83.13, Amount: 8.14, Client: client1
+[2025-03-08T07:50:57.806Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:57.806Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:57.806Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:57.806Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:57.806Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:57.806Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:50:57.806Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:57.806Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:57.806Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:57.806Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:57.807Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:57.807Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:57.807Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:57.807Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:57.807Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:57.807Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:57.807Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:57.807Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:57.807Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:57.808Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:57.808Z] [INFO]   Amount: 3.24, Price: $92.23, Buy: 01666009, Sell: 43f67de5
+[2025-03-08T07:50:57.808Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:57.808Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:57.808Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.808Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.808Z] [INFO] =========================
+
+[2025-03-08T07:50:57.815Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:57.816Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 8bb4afa0, Price: $83.13, Amount: 8.14, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:57.816Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.816Z] [INFO]   Amount: 2.73, Price: $83.13, Buy: 8bb4afa0, Sell: 5c3af6cb
+[2025-03-08T07:50:57.816Z] [INFO] =========================
+
+[2025-03-08T07:50:57.825Z] [INFO] Orderbook synced successfully {"buyOrders":12,"sellOrders":7,"matches":10}
+[2025-03-08T07:50:57.836Z] [INFO] Submitting new sell order: $76.26 x 8.37
+[2025-03-08T07:50:57.836Z] [INFO] Submitting new order: 6346fbff-a608-4ff6-969a-c5a1fd070e3a {"id":"6346fbff-a608-4ff6-969a-c5a1fd070e3a","type":"sell","price":76.26,"amount":8.37}
+[2025-03-08T07:50:57.842Z] [INFO] Order matched with 2 existing orders!
+[2025-03-08T07:50:57.842Z] [INFO] Orderbook synced successfully {"buyOrders":10,"sellOrders":10,"matches":1}
+[2025-03-08T07:50:57.842Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:57.842Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:50:57.842Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 8.14, Price: $83.13, Buy: 8bb4afa0, Sell: 6346fbff
+[2025-03-08T07:50:57.842Z] [INFO]   Amount: 0.23, Price: $82.14, Buy: 58c75a12, Sell: 6346fbff
+[2025-03-08T07:50:57.842Z] [INFO] =========================
+
+[2025-03-08T07:50:57.842Z] [INFO] Submitting new buy order: $87.03 x 5.30
+[2025-03-08T07:50:57.842Z] [INFO] Submitting new order: de2ab3f7-2c4b-402e-a5b9-886619f5f45e {"id":"de2ab3f7-2c4b-402e-a5b9-886619f5f45e","type":"buy","price":87.03,"amount":5.3}
+[2025-03-08T07:50:57.844Z] [INFO] Order matched with 2 existing orders!
+[2025-03-08T07:50:57.845Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:50:57.845Z] [INFO] BUY ORDERS:
+[2025-03-08T07:50:57.845Z] [INFO]   ID: b96f2789, Price: $75.32, Amount: 10.29, Client: client2
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 27416d71, Price: $71.27, Amount: 8.10, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: c079b2d9, Price: $70.42, Amount: 7.22, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 738b592b, Price: $68.61, Amount: 4.39, Client: client2
+[2025-03-08T07:50:57.845Z] [INFO]   ID: c5622fed, Price: $68.01, Amount: 2.34, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 1b1dabcb, Price: $67.68, Amount: 3.73, Client: client2
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 0f3a5319, Price: $64.36, Amount: 8.87, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 297846ae, Price: $62.09, Amount: 5.92, Client: client2
+[2025-03-08T07:50:57.845Z] [INFO]   ID: dc0997d2, Price: $58.95, Amount: 2.24, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: fba751ee, Price: $54.93, Amount: 2.34, Client: client2
+[2025-03-08T07:50:57.845Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 4170282a, Price: $77.33, Amount: 3.08, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 642daeaf, Price: $77.63, Amount: 2.94, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 2dc96cf2, Price: $79.69, Amount: 8.34, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 573a157f, Price: $82.19, Amount: 5.63, Client: client2
+[2025-03-08T07:50:57.845Z] [INFO]   ID: f8bca904, Price: $86.92, Amount: 2.93, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 926bd00a, Price: $96.14, Amount: 5.98, Client: client2
+[2025-03-08T07:50:57.845Z] [INFO]   ID: b3c84348, Price: $97.77, Amount: 4.70, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: e7e20b20, Price: $98.65, Amount: 9.46, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO]   ID: 4b9532e4, Price: $99.59, Amount: 7.97, Client: client1
+[2025-03-08T07:50:57.845Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:50:57.846Z] [INFO]   Amount: 7.25, Price: $79.69, Buy: bbcdabf5, Sell: 2dc96cf2
+[2025-03-08T07:50:57.846Z] [INFO]   Amount: 2.76, Price: $76.08, Buy: de2ab3f7, Sell: 3d50aa38
+[2025-03-08T07:50:57.846Z] [INFO]   Amount: 2.54, Price: $77.33, Buy: de2ab3f7, Sell: 4170282a
+[2025-03-08T07:50:57.846Z] [INFO] =========================
+
+[2025-03-08T07:51:02.829Z] [INFO] Orderbook synced successfully {"buyOrders":10,"sellOrders":10,"matches":1}
+[2025-03-08T07:51:02.837Z] [INFO] Submitting new buy order: $82.86 x 8.78
+[2025-03-08T07:51:02.837Z] [INFO] Submitting new order: 820df9cb-e513-4074-9045-563f92f00d2a {"id":"820df9cb-e513-4074-9045-563f92f00d2a","type":"buy","price":82.86,"amount":8.78}
+[2025-03-08T07:51:02.843Z] [INFO] Order matched with 3 existing orders!
+[2025-03-08T07:51:02.844Z] [INFO] Submitting new buy order: $68.43 x 9.46
+[2025-03-08T07:51:02.843Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:51:02.843Z] [INFO] BUY ORDERS:
+[2025-03-08T07:51:02.843Z] [INFO]   ID: b96f2789, Price: $75.32, Amount: 10.29, Client: client2
+[2025-03-08T07:51:02.843Z] [INFO]   ID: 27416d71, Price: $71.27, Amount: 8.10, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: c079b2d9, Price: $70.42, Amount: 7.22, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 738b592b, Price: $68.61, Amount: 4.39, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: c5622fed, Price: $68.01, Amount: 2.34, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 1b1dabcb, Price: $67.68, Amount: 3.73, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 0f3a5319, Price: $64.36, Amount: 8.87, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 297846ae, Price: $62.09, Amount: 5.92, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: dc0997d2, Price: $58.95, Amount: 2.24, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: fba751ee, Price: $54.93, Amount: 2.34, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 642daeaf, Price: $77.63, Amount: 2.94, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 2dc96cf2, Price: $79.69, Amount: 8.34, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 573a157f, Price: $82.19, Amount: 5.63, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: f8bca904, Price: $86.92, Amount: 2.93, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 926bd00a, Price: $96.14, Amount: 5.98, Client: client2
+[2025-03-08T07:51:02.844Z] [INFO]   ID: b3c84348, Price: $97.77, Amount: 4.70, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: e7e20b20, Price: $98.65, Amount: 9.46, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO]   ID: 4b9532e4, Price: $99.59, Amount: 7.97, Client: client1
+[2025-03-08T07:51:02.844Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:51:02.844Z] [INFO]   Amount: 7.25, Price: $79.69, Buy: bbcdabf5, Sell: 2dc96cf2
+[2025-03-08T07:51:02.845Z] [INFO]   Amount: 2.76, Price: $76.08, Buy: 820df9cb, Sell: 3d50aa38
+[2025-03-08T07:51:02.845Z] [INFO]   Amount: 3.08, Price: $77.33, Buy: 820df9cb, Sell: 4170282a
+[2025-03-08T07:51:02.845Z] [INFO]   Amount: 2.94, Price: $77.63, Buy: 820df9cb, Sell: 642daeaf
+[2025-03-08T07:51:02.845Z] [INFO] =========================
+
+[2025-03-08T07:51:02.845Z] [INFO] Submitting new order: 2e5c012d-2b6f-4d84-b370-e7b86cb04d58 {"id":"2e5c012d-2b6f-4d84-b370-e7b86cb04d58","type":"buy","price":68.43,"amount":9.46}
+[2025-03-08T07:51:02.848Z] [INFO] Order 2e5c012d-2b6f-4d84-b370-e7b86cb04d58 processed from client client2 {"orderId":"2e5c012d-2b6f-4d84-b370-e7b86cb04d58","clientId":"client2","result":{"matches":0,"remainingOrder":"exists"}}
+[2025-03-08T07:51:02.851Z] [INFO] Orderbook synced successfully {"buyOrders":12,"sellOrders":7,"matches":10}
+[2025-03-08T07:51:02.852Z] [INFO] Order added to the orderbook
+[2025-03-08T07:51:02.852Z] [INFO] 
+==== ORDERBOOK STATE ====
+[2025-03-08T07:51:02.852Z] [INFO] BUY ORDERS:
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 8bb4afa0, Price: $83.13, Amount: 8.14, Client: client1
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 58c75a12, Price: $82.14, Amount: 10.55, Client: client1
+[2025-03-08T07:51:02.852Z] [INFO]   ID: fc2c583e, Price: $76.94, Amount: 1.37, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 5f3a164b, Price: $71.46, Amount: 7.10, Client: client1
+[2025-03-08T07:51:02.852Z] [INFO]   ID: a4544e3d, Price: $71.01, Amount: 8.54, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO]   ID: d87a8eda, Price: $68.32, Amount: 4.03, Client: client1
+[2025-03-08T07:51:02.852Z] [INFO]   ID: d243fd5c, Price: $67.61, Amount: 3.21, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO]   ID: e66ecce6, Price: $61.54, Amount: 3.20, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 9208f599, Price: $58.50, Amount: 9.91, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 8c0edac7, Price: $54.50, Amount: 6.19, Client: client1
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 7384bc31, Price: $52.20, Amount: 4.84, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO]   ID: d9384ddf, Price: $52.03, Amount: 6.05, Client: client1
+[2025-03-08T07:51:02.852Z] [INFO] 
+SELL ORDERS:
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 38a686fb, Price: $85.71, Amount: 9.21, Client: client1
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 2439953a, Price: $89.38, Amount: 3.34, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 3c1fc2f1, Price: $89.64, Amount: 4.00, Client: client1
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 2f434196, Price: $92.30, Amount: 9.81, Client: client1
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 8f4f8801, Price: $93.63, Amount: 6.93, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 5225b954, Price: $94.65, Amount: 1.54, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO]   ID: 2b7e8dca, Price: $97.30, Amount: 6.32, Client: client2
+[2025-03-08T07:51:02.852Z] [INFO] 
+RECENT MATCHES:
+[2025-03-08T07:51:02.852Z] [INFO]   Amount: 3.24, Price: $92.23, Buy: 01666009, Sell: 43f67de5
+[2025-03-08T07:51:02.852Z] [INFO]   Amount: 7.10, Price: $92.23, Buy: 01666009, Sell: 3c86e0e1
+[2025-03-08T07:51:02.852Z] [INFO]   Amount: 2.15, Price: $90.38, Buy: 3781acca, Sell: 3c86e0e1
+[2025-03-08T07:51:02.852Z] [INFO]   Amount: 4.20, Price: $90.38, Buy: 3781acca, Sell: 6ee0c2fb
+[2025-03-08T07:51:02.852Z] [INFO]   Amount: 3.20, Price: $82.14, Buy: 58c75a12, Sell: 6ee0c2fb
+[2025-03-08T07:51:02.852Z] [INFO] =========================
+
