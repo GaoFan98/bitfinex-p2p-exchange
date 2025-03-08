@@ -53,6 +53,10 @@ services:
       - NODE_PORT=1024
       - NODE_TYPE=server
       - CLIENT_ID=exchange-node1
+      # Grenache Docker patch configuration
+      - USE_CONTAINER_NAMES=true
+      - CONTAINER_IP_MAP={"172.18.0.2":"exchange-node1","172.18.0.3":"exchange-node2","172.18.0.4":"client1","172.18.0.5":"client2"}
+      - DEBUG_GRENACHE=true
     networks:
       - bitfinex-net
     ports:
@@ -81,6 +85,10 @@ services:
       - NODE_PORT=3025
       - NODE_TYPE=server
       - CLIENT_ID=exchange-node2
+      # Grenache Docker patch configuration
+      - USE_CONTAINER_NAMES=true
+      - CONTAINER_IP_MAP={"172.18.0.2":"exchange-node1","172.18.0.3":"exchange-node2","172.18.0.4":"client1","172.18.0.5":"client2"}
+      - DEBUG_GRENACHE=true
     networks:
       - bitfinex-net
     ports:
@@ -109,6 +117,10 @@ services:
       - NODE_PORT=9001
       - NODE_TYPE=client
       - CLIENT_ID=client1
+      # Grenache Docker patch configuration
+      - USE_CONTAINER_NAMES=true
+      - CONTAINER_IP_MAP={"172.18.0.2":"exchange-node1","172.18.0.3":"exchange-node2","172.18.0.4":"client1","172.18.0.5":"client2"}
+      - DEBUG_GRENACHE=true
     networks:
       - bitfinex-net
     ports:
@@ -131,6 +143,10 @@ services:
       - NODE_PORT=9002
       - NODE_TYPE=client
       - CLIENT_ID=client2
+      # Grenache Docker patch configuration
+      - USE_CONTAINER_NAMES=true
+      - CONTAINER_IP_MAP={"172.18.0.2":"exchange-node1","172.18.0.3":"exchange-node2","172.18.0.4":"client1","172.18.0.5":"client2"}
+      - DEBUG_GRENACHE=true
     networks:
       - bitfinex-net
     ports:
